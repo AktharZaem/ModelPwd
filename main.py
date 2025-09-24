@@ -28,6 +28,13 @@ def check_dependencies():
         print(f"❌ Failed to import user_tester: {e}")
         missing_modules.append("user_tester")
 
+    try:
+        from educational_resources import EducationalResourceManager
+        print("✅ educational_resources module imported successfully")
+    except ImportError as e:
+        print(f"❌ Failed to import educational_resources: {e}")
+        missing_modules.append("educational_resources")
+
     return missing_modules
 
 
@@ -99,20 +106,27 @@ def main():
     try:
         from model_trainer import PasswordSecurityModelTrainer
         from user_tester import PasswordSecurityTester
+        from educational_resources import EducationalResourceManager
     except ImportError as e:
         print(f"❌ Import error: {e}")
         traceback.print_exc()
         return
 
+    # Initialize educational manager
+    education_manager = EducationalResourceManager()
+    last_quiz_score = None
+    weak_areas = []
+
     while True:
         print("\nSelect an option:")
         print("1. Train ML Model")
         print("2. Take Assessment Quiz")
-        print("3. Check System Status")
-        print("4. Check JSON Structure")
-        print("5. Exit")
+        print("3. Educational Resources & Learning")
+        print("4. Check System Status")
+        print("5. Check JSON Structure")
+        print("6. Exit")
 
-        choice = input("\nEnter your choice (1-5): ").strip()
+        choice = input("\nEnter your choice (1-6): ").strip()
 
         if choice == '1':
             print("\n--- Training ML Model ---")
@@ -162,13 +176,57 @@ def main():
             try:
                 print("Initializing tester...")
                 tester = PasswordSecurityTester()
-                tester.run_assessment()
+                result = tester.run_assessment()
+
+                # Store results for educational recommendations
+                if isinstance(result, dict):
+                    last_quiz_score = result.get('score', 0)
+                    weak_areas = result.get('weak_areas', [])
+
+                    print(
+                        f"\n🎓 Ready to learn more? Check out option 3 for personalized resources!")
+                elif isinstance(result, (int, float)):
+                    last_quiz_score = result
+                    print(
+                        f"\n🎓 Ready to learn more? Check out option 3 for personalized resources!")
 
             except Exception as e:
                 print(f"❌ Error during assessment: {e}")
                 traceback.print_exc()
 
         elif choice == '3':
+            print("\n--- Educational Resources & Learning ---")
+            try:
+                if last_quiz_score is not None:
+                    print(f"📊 Using your recent assessment results...")
+                    education_manager.run_educational_session(
+                        last_quiz_score, weak_areas)
+                else:
+                    print("📚 No recent assessment found. Showing general resources...")
+                    education_manager.run_educational_session()
+
+                # Offer additional options
+                print(f"\n🔄 Additional Options:")
+                print("A. View resources for different knowledge level")
+                print("B. Get quick security tips")
+                print("C. Return to main menu")
+
+                sub_choice = input(
+                    "\nEnter your choice (A/B/C): ").strip().upper()
+
+                if sub_choice == 'A':
+                    education_manager.run_educational_session()
+                elif sub_choice == 'B':
+                    tips = education_manager.get_interactive_tips()
+                    print(f"\n💡 SECURITY TIPS:")
+                    for i, tip in enumerate(tips, 1):
+                        print(f"{i}. {tip}")
+
+            except Exception as e:
+                print(f"❌ Error accessing educational resources: {e}")
+                traceback.print_exc()
+
+        elif choice == '4':
             print("\n--- System Status ---")
             check_files()
 
@@ -179,17 +237,17 @@ def main():
             else:
                 print("❌ password_security_model.pkl not found")
 
-        elif choice == '4':
+        elif choice == '5':
             print("\n--- JSON Structure Check ---")
             check_json_structure()
 
-        elif choice == '5':
+        elif choice == '6':
             print("\nThank you for using the Password Security Assessment System!")
-            print("Stay secure! 🔒")
+            print("Keep learning and stay secure! 🔒📚")
             break
 
         else:
-            print("Invalid choice! Please enter 1, 2, 3, 4, or 5.")
+            print("Invalid choice! Please enter 1, 2, 3, 4, 5, or 6.")
 
 
 if __name__ == "__main__":

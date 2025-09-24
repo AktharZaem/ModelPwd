@@ -1,36 +1,36 @@
 {
   "responses": {
-    "Which of these is the best example of a strong password?": "g6$L7@QwZ9p#",
-    "Why should you not use the same password for all your accounts?": "If one leaks, all your accounts can be hacked",
-    "What does a password saving app do?": "Keeps and locks your passwords safely",
-    "Why is it risky to use personal info like your birthday in a password?": "Hackers can find it on social media",
+    "Which of these is the best example of a strong password?": "John1234",
+    "Why should you not use the same password for all your accounts?": "It takes more time to type",
+    "What does a password saving app do?": "Sends your passwords to others",
+    "Why is it risky to use personal info like your birthday in a password?": "It\u2019s easy for you to remember",
     "Why is it important to keep your password private even from close friends?": "Sharing can let them access your accounts without permission",
-    "Why is Two-Factor Authentication (2FA) important?": "It gives extra protection",
+    "Why is Two-Factor Authentication (2FA) important?": "It works only on phones",
     "What should you do if a site says your password was leaked in a breach?": "Change it everywhere you used it",
-    "How often should you change important passwords (like email or banking)?": "Each time you update your device",
-    "What is a safe way to share a password (if you must)?": "Use a secure password-sharing tool",
-    "Which of these actions increases your password security the most?": "Using long, random passwords and storing them in a secure app"
+    "How often should you change important passwords (like email or banking)?": "Never, if it\u2019s strong",
+    "What is a safe way to share a password (if you must)?": "Send on WhatsApp",
+    "Which of these actions increases your password security the most?": "Writing passwords on sticky notes near your computer"
   },
   "scores": {
     "Which of these is the best example of a strong password?": {
-      "answer": "g6$L7@QwZ9p#",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "John1234",
+      "score": 3,
+      "level": "Beginner"
     },
     "Why should you not use the same password for all your accounts?": {
-      "answer": "If one leaks, all your accounts can be hacked",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "It takes more time to type",
+      "score": 0,
+      "level": "Wrong"
     },
     "What does a password saving app do?": {
-      "answer": "Keeps and locks your passwords safely",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "Sends your passwords to others",
+      "score": 0,
+      "level": "Wrong"
     },
     "Why is it risky to use personal info like your birthday in a password?": {
-      "answer": "Hackers can find it on social media",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "It\u2019s easy for you to remember",
+      "score": 3,
+      "level": "Beginner"
     },
     "Why is it important to keep your password private even from close friends?": {
       "answer": "Sharing can let them access your accounts without permission",
@@ -38,9 +38,9 @@
       "level": "Advanced"
     },
     "Why is Two-Factor Authentication (2FA) important?": {
-      "answer": "It gives extra protection",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "It works only on phones",
+      "score": 3,
+      "level": "Beginner"
     },
     "What should you do if a site says your password was leaked in a breach?": {
       "answer": "Change it everywhere you used it",
@@ -48,22 +48,22 @@
       "level": "Advanced"
     },
     "How often should you change important passwords (like email or banking)?": {
-      "answer": "Each time you update your device",
-      "score": 5,
-      "level": "Intermediate"
+      "answer": "Never, if it\u2019s strong",
+      "score": 0,
+      "level": "Wrong"
     },
     "What is a safe way to share a password (if you must)?": {
-      "answer": "Use a secure password-sharing tool",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "Send on WhatsApp",
+      "score": 3,
+      "level": "Beginner"
     },
     "Which of these actions increases your password security the most?": {
-      "answer": "Using long, random passwords and storing them in a secure app",
-      "score": 10,
-      "level": "Advanced"
+      "answer": "Writing passwords on sticky notes near your computer",
+      "score": 3,
+      "level": "Beginner"
     }
   },
-  "total_score": 95,
-  "percentage": 95.0,
-  "overall_level": "Expert"
+  "total_score": 35,
+  "percentage": 35.0,
+  "overall_level": "Basic"
 }
