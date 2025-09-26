@@ -1,25 +1,46 @@
 {
     "subcategory": "Password Management",
+    "profiles": {
+        "gender": [
+            "Male",
+            "Female"
+        ],
+        "proficiency": [
+            "School",
+            "High Education"
+        ],
+        "education": [
+            "O/L",
+            "A/L",
+            "HND",
+            "Degree"
+        ]
+    },
     "questions": [
         {
+            "questionId": "Q1",
             "question": "Which of these is the best example of a strong password?",
             "options": [
                 {
+                    "label": "A",
                     "text": "John1234",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "B",
                     "text": "John@123!",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "C",
                     "text": "g6$L7@QwZ9p#",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "D",
                     "text": "123456",
                     "level": "Wrong",
                     "marks": 0
@@ -27,24 +48,29 @@
             ]
         },
         {
+            "questionId": "Q2",
             "question": "Why should you not use the same password for all your accounts?",
             "options": [
                 {
+                    "label": "A",
                     "text": "It takes more time to type",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "B",
                     "text": "If it’s strong, it’s fine everywhere",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "C",
                     "text": "Some accounts are not important, so reuse is okay",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "D",
                     "text": "If one leaks, all your accounts can be hacked",
                     "level": "Advanced",
                     "marks": 10
@@ -52,24 +78,29 @@
             ]
         },
         {
+            "questionId": "Q3",
             "question": "What does a password saving app do?",
             "options": [
                 {
+                    "label": "A",
                     "text": "Sends your passwords to others",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "B",
                     "text": "Writes them on paper",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "C",
                     "text": "Stores them in a simple file",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "D",
                     "text": "Keeps and locks your passwords safely",
                     "level": "Advanced",
                     "marks": 10
@@ -77,24 +108,29 @@
             ]
         },
         {
+            "questionId": "Q4",
             "question": "Why is it risky to use personal info like your birthday in a password?",
             "options": [
                 {
+                    "label": "A",
                     "text": "It’s easy for you to remember",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "B",
                     "text": "Hackers can find it on social media",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "C",
                     "text": "It makes the password shorter",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "D",
                     "text": "It’s unique to you, so safe",
                     "level": "Intermediate",
                     "marks": 5
@@ -102,24 +138,29 @@
             ]
         },
         {
+            "questionId": "Q5",
             "question": "Why is it important to keep your password private even from close friends?",
             "options": [
                 {
+                    "label": "A",
                     "text": "They might forget it",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "B",
                     "text": "Sharing can let them access your accounts without permission",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "C",
                     "text": "It makes your password longer",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "D",
                     "text": "Friends will remember it better than you",
                     "level": "Wrong",
                     "marks": 0
@@ -127,24 +168,29 @@
             ]
         },
         {
+            "questionId": "Q6",
             "question": "Why is Two-Factor Authentication (2FA) important?",
             "options": [
                 {
+                    "label": "A",
                     "text": "It makes login slower",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "B",
                     "text": "It gives extra protection",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "C",
                     "text": "It works only on phones",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "D",
                     "text": "It replaces your password",
                     "level": "Intermediate",
                     "marks": 5
@@ -152,24 +198,29 @@
             ]
         },
         {
+            "questionId": "Q7",
             "question": "What should you do if a site says your password was leaked in a breach?",
             "options": [
                 {
+                    "label": "A",
                     "text": "Keep using the same password",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "B",
                     "text": "Change it only if you remember",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "C",
                     "text": "Change it only on that site",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "D",
                     "text": "Change it everywhere you used it",
                     "level": "Advanced",
                     "marks": 10
@@ -177,24 +228,29 @@
             ]
         },
         {
+            "questionId": "Q8",
             "question": "How often should you change important passwords (like email or banking)?",
             "options": [
                 {
+                    "label": "A",
                     "text": "Every few years",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "B",
                     "text": "Never, if it’s strong",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "C",
                     "text": "Every 6 months or after suspicious activity",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "D",
                     "text": "Each time you update your device",
                     "level": "Intermediate",
                     "marks": 5
@@ -202,24 +258,29 @@
             ]
         },
         {
+            "questionId": "Q9",
             "question": "What is a safe way to share a password (if you must)?",
             "options": [
                 {
+                    "label": "A",
                     "text": "Send on WhatsApp",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "B",
                     "text": "Say it over the phone",
                     "level": "Intermediate",
                     "marks": 5
                 },
                 {
+                    "label": "C",
                     "text": "Use a secure password-sharing tool",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "D",
                     "text": "Post it in a private Facebook group",
                     "level": "Wrong",
                     "marks": 0
@@ -227,24 +288,29 @@
             ]
         },
         {
+            "questionId": "Q10",
             "question": "Which of these actions increases your password security the most?",
             "options": [
                 {
+                    "label": "A",
                     "text": "Reusing passwords on trusted websites",
                     "level": "Wrong",
                     "marks": 0
                 },
                 {
+                    "label": "B",
                     "text": "Writing passwords on sticky notes near your computer",
                     "level": "Beginner",
                     "marks": 3
                 },
                 {
+                    "label": "C",
                     "text": "Using long, random passwords and storing them in a secure app",
                     "level": "Advanced",
                     "marks": 10
                 },
                 {
+                    "label": "D",
                     "text": "Changing only one character of an old password",
                     "level": "Intermediate",
                     "marks": 5

@@ -10,6 +10,55 @@ import json
 current_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, current_dir)
 
+# Ensure core classes are available to avoid NameError in main()
+try:
+    from password_model_trainer import PasswordModelTrainer
+except Exception:
+    class PasswordModelTrainer:
+        def __init__(self, dataset_path, answer_sheet_path):
+            print(
+                "⚠️ password_model_trainer not found — using placeholder PasswordModelTrainer.")
+            self.dataset_path = dataset_path
+            self.answer_sheet_path = answer_sheet_path
+
+        def train_model(self):
+            print(
+                "Training model... (placeholder) — create 'password_model_trainer.py' for full functionality.")
+            return None, 0.0
+
+try:
+    from password_user_tester import PasswordTester
+except Exception:
+    class PasswordTester:
+        def __init__(self):
+            print("⚠️ password_user_tester not found — using placeholder PasswordTester.")
+
+        def run_assessment(self):
+            print("Running assessment... (placeholder)")
+            return {"score": 0, "weak_areas": []}
+
+try:
+    from password_educational_resources import PasswordEducationalManager
+except Exception:
+    class PasswordEducationalManager:
+        def __init__(self):
+            print(
+                "⚠️ password_educational_resources not found — using placeholder PasswordEducationalManager.")
+
+        def run_educational_session(self, score=None, weak_areas=None):
+            print("Running educational session... (placeholder)")
+
+        def get_interactive_tips(self):
+            return ["Use strong passwords", "Enable 2FA", "Use a password manager"]
+
+# Global variables for user profile
+user_profile = {
+    'name': '',
+    'gender': '',
+    'proficiency': '',
+    'education': ''
+}
+
 
 def setup_virtual_environment():
     """Create virtual environment and install required packages"""
@@ -98,7 +147,12 @@ def create_sample_files():
                             "marks": 0, "level": "wrong"}
                     ]
                 }
-            ]
+            ],
+            "profiles": {
+                "gender": ["Male", "Female"],
+                "proficiency": ["School", "High Education"],
+                "education": ["O/L", "A/L", "HND", "Degree"]
+            }
         }
 
         with open('answer_sheetpwd.json', 'w') as f:
@@ -217,45 +271,104 @@ def check_files():
             print(f"❌ {file} not found")
 
 
-def main():
-    print("Password Management Security Awareness Assessment System")
-    print("=" * 60)
+def collect_user_profile():
+    """Collect user name and profile information"""
+    global user_profile
 
-    # Setup virtual environment and install packages
-    print("\n🔧 Setting up environment...")
-    python_exe = setup_virtual_environment()
-    if not python_exe:
-        print("❌ Failed to setup virtual environment. Continuing with system Python...")
-        python_exe = sys.executable
+    print("🌟 Welcome to Password Management Security Awareness Assessment System! 🌟")
+    print("=" * 70)
 
-    # Create sample files if they don't exist
-    create_sample_files()
+    # Get user name
+    while True:
+        name = input("\n👋 Please enter your name: ").strip()
+        if name:
+            user_profile['name'] = name
+            break
+        else:
+            print("❌ Name cannot be empty. Please try again.")
 
-    # Check Python packages
-    print("\n📦 Checking Python packages...")
-    missing_packages = check_python_packages()
-    if missing_packages:
-        print(f"⚠️ Missing packages: {', '.join(missing_packages)}")
-        print("Please run: pip install " + " ".join(missing_packages))
+    print(f"\nHi {name}! 😊 Great to have you here!")
+    print("To provide you with personalized learning experience, please tell us about yourself.")
+    print("\n📋 Please select your profile details:")
 
-    # Check dependencies first
-    print("\nChecking dependencies...")
-    missing_modules = check_dependencies()
-
-    if missing_modules:
-        print(f"\n❌ Missing required modules: {', '.join(missing_modules)}")
-        print("Creating missing module files...")
-        create_missing_modules(missing_modules)
-
-    # Import modules after checking
+    # Load profiles from answer sheet
     try:
-        from password_model_trainer import PasswordModelTrainer
-        from password_user_tester import PasswordTester
-        from password_educational_resources import PasswordEducationalManager
-    except ImportError as e:
-        print(f"❌ Import error: {e}")
-        print("Please ensure all required files are created properly.")
-        return
+        with open('answer_sheetpwd.json', 'r') as f:
+            data = json.load(f)
+            profiles = data.get('profiles', {})
+    except:
+        # Fallback if file doesn't exist
+        profiles = {
+            "gender": ["Male", "Female"],
+            "proficiency": ["School", "High Education"],
+            "education": ["O/L", "A/L", "HND", "Degree"]
+        }
+
+    # Gender selection
+    print(f"\n👤 Select your gender:")
+    for i, gender in enumerate(profiles['gender'], 1):
+        print(f"   {i}. {gender}")
+
+    while True:
+        try:
+            choice = int(
+                input(f"Enter choice (1-{len(profiles['gender'])}): "))
+            if 1 <= choice <= len(profiles['gender']):
+                user_profile['gender'] = profiles['gender'][choice-1]
+                break
+            else:
+                print("❌ Invalid choice. Please try again.")
+        except ValueError:
+            print("❌ Please enter a valid number.")
+
+    # Proficiency selection
+    print(f"\n🎓 Select your IT proficiency level:")
+    for i, proficiency in enumerate(profiles['proficiency'], 1):
+        print(f"   {i}. {proficiency}")
+
+    while True:
+        try:
+            choice = int(
+                input(f"Enter choice (1-{len(profiles['proficiency'])}): "))
+            if 1 <= choice <= len(profiles['proficiency']):
+                user_profile['proficiency'] = profiles['proficiency'][choice-1]
+                break
+            else:
+                print("❌ Invalid choice. Please try again.")
+        except ValueError:
+            print("❌ Please enter a valid number.")
+
+    # Education selection
+    print(f"\n📚 Select your education level:")
+    for i, education in enumerate(profiles['education'], 1):
+        print(f"   {i}. {education}")
+
+    while True:
+        try:
+            choice = int(
+                input(f"Enter choice (1-{len(profiles['education'])}): "))
+            if 1 <= choice <= len(profiles['education']):
+                user_profile['education'] = profiles['education'][choice-1]
+                break
+            else:
+                print("❌ Invalid choice. Please try again.")
+        except ValueError:
+            print("❌ Please enter a valid number.")
+
+    # Summary
+    print(f"\n✅ Profile completed! Here's what we know about you:")
+    print(f"   📛 Name: {user_profile['name']}")
+    print(f"   👤 Gender: {user_profile['gender']}")
+    print(f"   🎓 Proficiency: {user_profile['proficiency']}")
+    print(f"   📚 Education Level: {user_profile['education']}")
+
+    print(f"\n🚀 Great! Now let's get started with your learning journey!")
+    input("Press Enter to continue...")
+
+
+def main():
+    # Collect user profile at the start
+    collect_user_profile()
 
     # Initialize educational manager
     education_manager = PasswordEducationalManager()
@@ -263,7 +376,9 @@ def main():
     weak_areas = []
 
     while True:
-        print("\nSelect an option:")
+        print(
+            f"\n🌟 Hi {user_profile['name']}! What would you like to do today? 🌟")
+        print("Select an option:")
         print("1. Train ML Model")
         print("2. Take Password Security Assessment Quiz")
         print("3. Educational Resources & Learning")
@@ -272,7 +387,8 @@ def main():
         print("6. Setup/Reset Environment")
         print("7. Exit")
 
-        choice = input("\nEnter your choice (1-7): ").strip()
+        choice = input(
+            f"\n{user_profile['name']}, enter your choice (1-7): ").strip()
 
         if choice == '1':
             print("\n--- Training ML Model for Password Management ---")
@@ -400,7 +516,7 @@ def main():
 
         elif choice == '7':
             print(
-                "\nThank you for using the Password Management Security Awareness Assessment System!")
+                f"\n👋 Thank you {user_profile['name']} for using the Password Management Security Awareness Assessment System!")
             print("Keep learning and stay secure! 🔒🔑")
             break
 
