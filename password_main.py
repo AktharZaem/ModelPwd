@@ -407,7 +407,65 @@ def main():
                 print("Error: answer_sheetpwd.json not found!")
                 print("Please ensure the answer sheet file is in the current directory.")
                 continue
+            # Check if a trained model already exists
+            model_file = 'password_model.pkl'
+            info_file = 'password_model_info.json'
 
+            def load_model(path):
+                try:
+                    from joblib import load as jl_load
+                    return jl_load(path)
+                except Exception:
+                    import pickle
+                    with open(path, 'rb') as f:
+                        return pickle.load(f)
+
+            def save_model(model, path):
+                try:
+                    from joblib import dump as jl_dump
+                    jl_dump(model, path)
+                    return True
+                except Exception:
+                    try:
+                        import pickle
+                        with open(path, 'wb') as f:
+                            pickle.dump(model, f)
+                        return True
+                    except Exception as e:
+                        print(f"❌ Failed to save model: {e}")
+                        return False
+
+            # If model exists, ask whether to reuse or retrain
+            if os.path.exists(model_file):
+                while True:
+                    reuse = input(
+                        "A trained model was found. Reuse it? (Y to reuse / N to retrain): ").strip().upper()
+                    if reuse in ('Y', 'N'):
+                        break
+                    print("Please enter Y or N.")
+
+                if reuse == 'Y':
+                    try:
+                        model = load_model(model_file)
+                        # try to read metadata if available
+                        metadata = {}
+                        if os.path.exists(info_file):
+                            try:
+                                with open(info_file, 'r') as f:
+                                    metadata = json.load(f)
+                            except Exception:
+                                metadata = {}
+
+                        print(f"✅ Loaded existing model from {model_file}")
+                        if metadata.get('accuracy') is not None:
+                            print(
+                                f"Stored accuracy: {metadata.get('accuracy')}")
+                        continue  # return to main menu
+                    except Exception as e:
+                        print(f"❌ Failed to load existing model: {e}")
+                        print("Proceeding to retrain the model.")
+
+            # Proceed to training
             try:
                 print("Initializing trainer...")
                 trainer = PasswordModelTrainer(
@@ -418,7 +476,26 @@ def main():
                 print("Starting model training...")
                 model, accuracy = trainer.train_model()
                 print(f"\n✅ Model training completed successfully!")
-                print(f"Model accuracy: {accuracy:.2f}")
+                try:
+                    acc_val = float(accuracy)
+                    print(f"Model accuracy: {acc_val:.2f}")
+                except Exception:
+                    acc_val = None
+
+                # Save model and metadata
+                saved = save_model(model, model_file)
+                if saved:
+                    info = {
+                        'trained_by': user_profile.get('name', ''),
+                        'accuracy': acc_val,
+                        'timestamp': __import__('datetime').datetime.now().isoformat()
+                    }
+                    try:
+                        with open(info_file, 'w') as f:
+                            json.dump(info, f, indent=2)
+                    except Exception as e:
+                        print(
+                            f"⚠️ Warning: Failed to write model metadata: {e}")
 
             except Exception as e:
                 print(f"❌ Error during model training: {e}")

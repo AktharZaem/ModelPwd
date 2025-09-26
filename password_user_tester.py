@@ -62,7 +62,8 @@ class PasswordTester:
                 with open('ExplanationBank.json', 'r') as ef:
                     raw_bank = json.load(ef)
                     # normalize/flatten the content to a list of dicts
-                    self.explanation_bank = self._normalize_explanation_bank(raw_bank)
+                    self.explanation_bank = self._normalize_explanation_bank(
+                        raw_bank)
             except FileNotFoundError:
                 self.explanation_bank = []
 
@@ -250,7 +251,8 @@ class PasswordTester:
                 continue
 
             # Normalise possible question id keys
-            entry_qid = entry.get('questionId') or entry.get('question_id') or entry.get('qid')
+            entry_qid = entry.get('questionId') or entry.get(
+                'question_id') or entry.get('qid')
             if entry_qid is None:
                 continue
             if str(entry_qid) != str(question_id):
