@@ -352,8 +352,6 @@ class AppPermissionsModelTrainer:
                 return 'Expert'
             elif percentage >= 50:
                 return 'Intermediate'
-            elif percentage >= 25:
-                return 'Basic'
             else:
                 return 'Beginner'
 
@@ -483,6 +481,11 @@ class AppPermissionsModelTrainer:
         plt.title('Confusion Matrix')
         plt.xlabel('Predicted')
         plt.ylabel('True')
+        # Add numbers to each cell
+        for i in range(len(cm)):
+            for j in range(len(cm[i])):
+                ax.text(j, i, str(cm[i, j]), ha='center', va='center',
+                        color='white' if cm[i, j] > cm.max() / 2 else 'black')
         plt.tight_layout()
         plt.savefig('confusion_matrix.png')
         plt.close()
@@ -517,7 +520,8 @@ class AppPermissionsModelTrainer:
         ax.set_ylabel('Accuracy (%)')
         ax.set_title('Model Accuracy')
         ax.set_ylim(0, 100)
-        ax.text(0, accuracy * 100 + 1, f'{accuracy * 100:.2f}%', ha='center', va='bottom')
+        ax.text(0, accuracy * 100 + 1,
+                f'{accuracy * 100:.2f}%', ha='center', va='bottom')
         plt.tight_layout()
         plt.savefig('model_accuracy_plot.png')
         plt.close()
