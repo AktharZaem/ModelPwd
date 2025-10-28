@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "created": "2025-09-27 20:41:22",
+    "category": "Mobile App Permissions Security Assessment",
+    "description": "Assessment results database for app permissions security awareness"
+  },
+  "assessments": [
+    {
+      "timestamp": "2025-10-18 13:50:03",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 52,
+      "percentage": 52.0,
+      "overall_knowledge_level": "Intermediate",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-18 13:59:39",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 95,
+      "percentage": 95.0,
+      "overall_knowledge_level": "Expert",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-18 14:09:25",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 49,
+      "percentage": 49.0,
+      "overall_knowledge_level": "Basic",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-18 14:16:50",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 54,
+      "percentage": 54.0,
+      "overall_knowledge_level": "Intermediate",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-18 18:10:45",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 44,
+      "percentage": 44.0,
+      "overall_knowledge_level": "Basic",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-18 22:04:27",
+      "email": "a@gmail.com",
+      "name": "a",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "Degree",
+      "proficiency": "High Education",
+      "total_score": 40,
+      "percentage": 40.0,
+      "overall_knowledge_level": "Basic",
+      "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-28 08:27:01",
+      "email": "ak@gmail.com",
+      "name": "akthar",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "A/L",
+      "proficiency": "High Education",
+      "total_score": 69,
+      "percentage": 69.0,
+      "overall_knowledge_level": "Intermediate",
+      "category": "App Permissions"
+    }
+  ]
+}
