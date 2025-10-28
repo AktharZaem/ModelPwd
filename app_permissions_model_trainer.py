@@ -5,9 +5,10 @@ import json
 import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import classification_report, accuracy_score
+from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 import joblib
 import warnings
+import matplotlib.pyplot as plt  # Added for plotting
 warnings.filterwarnings('ignore')
 
 # Add optional import to reuse parsing from tester if available
@@ -445,12 +446,94 @@ class AppPermissionsModelTrainer:
         print("\nClassification Report:")
         print(classification_report(y_test, y_pred))
 
+        # Generate and save plots
+        self.generate_training_report(y_test, y_pred)
+
         # Save model and feature names
         joblib.dump(self.model, 'app_permissions_model.pkl')
         joblib.dump(X.columns.tolist(), 'app_permissions_feature_names.pkl')
 
         print("Model saved as 'app_permissions_model.pkl'")
         return self.model, accuracy
+
+    def generate_training_report(self, y_test, y_pred):
+        """Generate and save visual reports of training results"""
+        # Plot 1: Awareness Level Distribution
+        awareness_counts = self.df['awareness_level'].value_counts()
+        plt.figure(figsize=(8, 6))
+        awareness_counts.plot(kind='bar', color='skyblue')
+        plt.title('Awareness Level Distribution')
+        plt.xlabel('Awareness Level')
+        plt.ylabel('Number of Users')
+        plt.xticks(rotation=45)
+        plt.tight_layout()
+        plt.savefig('awareness_level_distribution.png')
+        plt.close()
+        print("✅ Awareness level distribution plot saved as 'awareness_level_distribution.png'")
+
+        # Plot 2: Confusion Matrix
+        cm = confusion_matrix(y_test, y_pred, labels=y_test.unique())
+        fig, ax = plt.subplots(figsize=(8, 6))
+        cax = ax.matshow(cm, cmap='Blues')
+        fig.colorbar(cax)
+        ax.set_xticks(range(len(y_test.unique())))
+        ax.set_yticks(range(len(y_test.unique())))
+        ax.set_xticklabels(y_test.unique(), rotation=45)
+        ax.set_yticklabels(y_test.unique())
+        plt.title('Confusion Matrix')
+        plt.xlabel('Predicted')
+        plt.ylabel('True')
+        plt.tight_layout()
+        plt.savefig('confusion_matrix.png')
+        plt.close()
+        print("✅ Confusion matrix plot saved as 'confusion_matrix.png'")
+
+        # Plot 3: Classification Metrics (Precision, Recall, F1-Score)
+        from sklearn.metrics import precision_recall_fscore_support
+        precision, recall, f1, support = precision_recall_fscore_support(
+            y_test, y_pred, average=None, labels=y_test.unique())
+        labels = y_test.unique()
+        x = np.arange(len(labels))
+        width = 0.2
+        fig, ax = plt.subplots(figsize=(10, 6))
+        ax.bar(x - width, precision, width,
+               label='Precision', color='lightcoral')
+        ax.bar(x, recall, width, label='Recall', color='lightgreen')
+        ax.bar(x + width, f1, width, label='F1-Score', color='lightblue')
+        ax.set_xlabel('Classes')
+        ax.set_title('Classification Metrics by Class')
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels, rotation=45)
+        ax.legend()
+        plt.tight_layout()
+        plt.savefig('classification_metrics.png')
+        plt.close()
+        print("✅ Classification metrics plot saved as 'classification_metrics.png'")
+
+        # New Plot 4: Model Accuracy Bar Chart
+        accuracy = accuracy_score(y_test, y_pred)
+        fig, ax = plt.subplots(figsize=(6, 4))
+        ax.bar(['Model Accuracy'], [accuracy * 100], color='green')
+        ax.set_ylabel('Accuracy (%)')
+        ax.set_title('Model Accuracy')
+        ax.set_ylim(0, 100)
+        ax.text(0, accuracy * 100 + 1, f'{accuracy * 100:.2f}%', ha='center', va='bottom')
+        plt.tight_layout()
+        plt.savefig('model_accuracy_plot.png')
+        plt.close()
+        print("✅ Model accuracy plot saved as 'model_accuracy_plot.png'")
+
+        # Save classification report to text file
+        report = classification_report(y_test, y_pred)
+        accuracy = accuracy_score(y_test, y_pred)
+        with open('classification_report.txt', 'w') as f:
+            f.write("Logistic Regression Classification Report\n")
+            f.write("=" * 50 + "\n")
+            f.write(f"Overall Accuracy: {accuracy:.2f}\n\n")
+            f.write(report)
+        print("✅ Classification report saved as 'classification_report.txt'")
+
+        print("\n📊 Training report files generated. You can download 'awareness_level_distribution.png', 'confusion_matrix.png', 'classification_metrics.png', 'model_accuracy_plot.png', and 'classification_report.txt'.")
 
 
 if __name__ == "__main__":
