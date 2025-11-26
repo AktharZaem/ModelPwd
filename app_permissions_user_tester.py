@@ -21,12 +21,9 @@ class AppPermissionsTester:
 
     def load_components(self):
         """Load trained model, answer sheet, and explanation bank"""
-        script_dir = os.path.dirname(os.path.abspath(__file__))
         try:
             # Load answer sheet and parse the nested structure
-            answer_sheet_path = os.path.join(
-                script_dir, 'answer_sheetappper.json')
-            with open(answer_sheet_path, 'r', encoding='utf-8') as f:
+            with open('answer_sheetappper.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
             self.answer_sheet = {}
@@ -48,10 +45,8 @@ class AppPermissionsTester:
                         self.questions_data.append(q_item)
 
             # Load explanation bank
-            explanation_bank_path = os.path.join(
-                script_dir, 'ExplanationBankappper.json')
             try:
-                with open(explanation_bank_path, 'r', encoding='utf-8') as f:
+                with open('ExplanationBankappper.json', 'r', encoding='utf-8') as f:
                     self.explanation_bank = json.load(f)
                 print(
                     f"✅ Loaded {len(self.explanation_bank)} explanations from ExplanationBank")
@@ -61,18 +56,16 @@ class AppPermissionsTester:
                 self.explanation_bank = []
 
             # Load trained model and feature names if available
-            model_path = os.path.join(script_dir, 'app_permissions_model.pkl')
             try:
-                self.model = joblib.load(model_path)
+                self.model = joblib.load('app_permissions_model.pkl')
                 print("✅ Loaded trained model 'app_permissions_model.pkl'")
             except Exception as e:
                 print(f"⚠️ Could not load model: {e}")
                 self.model = None
 
-            feature_names_path = os.path.join(
-                script_dir, 'app_permissions_feature_names.pkl')
             try:
-                self.feature_names = joblib.load(feature_names_path)
+                self.feature_names = joblib.load(
+                    'app_permissions_feature_names.pkl')
             except Exception:
                 self.feature_names = None
 
@@ -85,7 +78,9 @@ class AppPermissionsTester:
 
     def collect_user_profile(self):
         """Collect user profile information before starting the quiz"""
-        script_dir = os.path.dirname(os.path.abspath(__file__))
+        print("\n=== User Profile Setup ===")
+        print("Please provide some basic information to get personalized feedback.\n")
+
         # Collect Email (unique)
         print("1. Enter Your Email:")
         while True:
@@ -98,10 +93,8 @@ class AppPermissionsTester:
                 print("Please enter a valid email address!")
                 continue
             # Check uniqueness in database
-            database_path = os.path.join(
-                script_dir, 'app_permissions_assessment_database.json')
             try:
-                with open(database_path, 'r', encoding='utf-8') as f:
+                with open('app_permissions_assessment_database.json', 'r', encoding='utf-8') as f:
                     database = json.load(f)
                 existing_emails = [assessment.get('email', assessment.get(
                     'name', '')).lower() for assessment in database.get('assessments', [])]
@@ -299,60 +292,67 @@ class AppPermissionsTester:
             if match:
                 normalized_qid = f"Q{match.group(1)}"
 
-        # Recursively collect all explanation dicts, flattening nested lists
-        def collect_explanations(obj, collected):
-            if isinstance(obj, list):
-                for item in obj:
-                    collect_explanations(item, collected)
-            elif isinstance(obj, dict):
-                if "questionId" in obj and "option" in obj:
-                    collected.append(obj)
-
-        collected_explanations = []
-        collect_explanations(self.explanation_bank, collected_explanations)
-
-        # Find matching explanation
-        for explanation in collected_explanations:
-            exp_qid = explanation.get("questionId", "")
-            exp_option = explanation.get("option", "")
-            exp_profile = explanation.get("profile", {})
-
-            # Normalize explanation question ID too
-            if isinstance(exp_qid, str) and exp_qid.startswith('Q'):
-                match = re.match(r"Q0*(\d+)", exp_qid)
-                if match:
-                    exp_qid = f"Q{match.group(1)}"
-
-            # Check if question ID and option match
-            if (exp_qid == normalized_qid and exp_option == option_label):
-                # Check if profile matches
-                profile_match = (
-                    exp_profile.get("gender", "") == user_profile.get("gender", "") and
-                    exp_profile.get("proficiency", "") == user_profile.get("proficiency", "") and
-                    exp_profile.get("education", "") == user_profile.get(
-                        "education", "")
-                )
-
-                if profile_match:
-                    return f"\nPERSONALIZED EXPLANATION:\n{explanation.get('explanation', '')}"
-
-        # If no exact match found, try to find closest match (same question, any profile)
-        for explanation in collected_explanations:
+        # Collect all matching explanations for this question + option
+        matching_explanations = []
+        for explanation in self.explanation_bank:
             exp_qid = explanation.get("questionId", "")
             exp_option = explanation.get("option", "")
 
             # Normalize explanation question ID
             if isinstance(exp_qid, str) and exp_qid.startswith('Q'):
-                match = re.match(r"Q0*(\d+)", exp_qid)
-                if match:
-                    exp_qid = f"Q{match.group(1)}"
+                m = re.match(r"Q0*(\d+)", exp_qid)
+                if m:
+                    exp_qid = f"Q{m.group(1)}"
 
-            if (exp_qid == normalized_qid and exp_option == option_label):
-                profile_desc = f"{explanation.get('profile', {}).get('gender', 'General')}, {explanation.get('profile', {}).get('proficiency', 'General')}, {explanation.get('profile', {}).get('education', 'General')}"
-                return f"\nRELATED EXPLANATION (for {profile_desc}):\n{explanation.get('explanation', '')}"
+            if exp_qid == normalized_qid and exp_option == option_label:
+                matching_explanations.append(explanation)
 
-        # Fallback explanation
-        return f"\nFALLBACK EXPLANATION:\nFor this question about app permissions, it's important to understand the security implications of your choice. Consider reviewing app permission best practices and how they relate to your privacy and security."
+        # No explanations found for this pair
+        if not matching_explanations:
+            return f"\nFALLBACK EXPLANATION:\nFor this question about app permissions, it's important to understand the security implications of your choice. Consider reviewing app permission best practices and how they relate to your privacy and security."
+
+        # Helper to compute how well an explanation's profile matches the user_profile
+        def profile_match_score(exp_profile, user_profile):
+            score = 0
+            if not user_profile:
+                return 0
+            for key in ("gender", "proficiency", "education"):
+                ev = (exp_profile.get(key, "") or "").strip().lower()
+                uv = (user_profile.get(key, "") or "").strip().lower()
+                if ev and uv and ev == uv:
+                    score += 1
+            return score
+
+        # First try exact profile match (all three match)
+        for exp in matching_explanations:
+            exp_profile = exp.get("profile", {}) or {}
+            if user_profile:
+                if (exp_profile.get("gender", "").strip().lower() == (user_profile.get("gender", "") or "").strip().lower() and
+                    exp_profile.get("proficiency", "").strip().lower() == (user_profile.get("proficiency", "") or "").strip().lower() and
+                        exp_profile.get("education", "").strip().lower() == (user_profile.get("education", "") or "").strip().lower()):
+                    return f"\nPERSONALIZED EXPLANATION:\n{exp.get('explanation', '')}"
+
+        # If no exact match, select the explanation with best partial match
+        best = None
+        best_score = -1
+        for exp in matching_explanations:
+            score = profile_match_score(
+                exp.get("profile", {}) or {}, user_profile or {})
+            if score > best_score:
+                best_score = score
+                best = exp
+
+        # Format profile description using the user's actual profile (so it reflects the user)
+        up = user_profile or {}
+        profile_desc = f"{up.get('gender', 'General')}, {up.get('proficiency', 'General')}, {up.get('education', 'General')}"
+
+        if best:
+            # Return related explanation but indicate it's being shown for the user's profile
+            return f"\nRELATED EXPLANATION (for {profile_desc}):\n{best.get('explanation', '')}"
+        else:
+            # Fallback to first available explanation but still label with user's profile
+            exp = matching_explanations[0]
+            return f"\nRELATED EXPLANATION (for {profile_desc}):\n{exp.get('explanation', '')}"
 
     def get_option_label_from_answer(self, question, user_answer):
         """Get the option label (A, B, C, D) from the user's answer text"""
@@ -375,9 +375,8 @@ class AppPermissionsTester:
     def save_to_assessment_database(self, user_data):
         """Save assessment results to a structured database file"""
         import datetime
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        database_file = os.path.join(
-            script_dir, 'app_permissions_assessment_database.json')
+
+        database_file = 'app_permissions_assessment_database.json'
 
         # Create assessment record (without detailed responses and scores)
         assessment_record = {
@@ -432,7 +431,7 @@ APP PERMISSIONS QUIZ RESULTS & PERSONALIZED FEEDBACK
 ============================================================
 Total Score: {total_score}/100
 Percentage: {percentage:.1f}%
-Overall Password Management Level: {overall_level}
+Overall App Permissions Security Level: {overall_level}
 Email: {self.user_profile['email']}
 Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.user_profile['proficiency']}
 """
@@ -444,11 +443,11 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
 
         # Level-specific encouragement
         if percentage >= 75:
-            encouragement = "\n🎉 Congratulations! You're in the SAFE ZONE!\nYour Password Management awareness is excellent.\nYou understand how to protect your privacy and data from Unauthorized Access."
+            encouragement = "\n🎉 Congratulations! You're in the SAFE ZONE!\nYour mobile app permissions security awareness is excellent.\nYou understand how to protect your privacy and data from apps that might misuse permissions."
         elif percentage >= 50:
             encouragement = "\n📈 Good Progress! You're at INTERMEDIATE level!\nYou have a solid foundation but there's room for improvement.\nFocus on the areas below to reach expert level and better protect your privacy."
         elif percentage >= 25:
-            encouragement = "\n📚 You're at BASIC level - Learning Time!\nDon't worry! Everyone starts somewhere. Password Management can be tricky to understand.\nThink of it like this: Would you give a stranger the keys to your house? Same with apps and your phone!"
+            encouragement = "\n📚 You're at BASIC level - Learning Time!\nDon't worry! Everyone starts somewhere. App permissions can be tricky to understand.\nThink of it like this: Would you give a stranger the keys to your house? Same with apps and your phone!"
         else:
             encouragement = "\n🌱 You're just getting started - BEGINNER level!\nNo problem at all! Let's learn together step by step.\nThink of your phone like your house - you need to decide who gets keys to which rooms!"
 
@@ -519,11 +518,8 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
 
     def compare_with_last_score(self):
         """Compare current score with last score from database"""
-        script_dir = os.path.dirname(os.path.abspath(__file__))
         try:
-            database_path = os.path.join(
-                script_dir, 'app_permissions_assessment_database.json')
-            with open(database_path, 'r', encoding='utf-8') as f:
+            with open('app_permissions_assessment_database.json', 'r', encoding='utf-8') as f:
                 database = json.load(f)
             assessments = database.get('assessments', [])
             user_assessments = [a for a in assessments if a.get(
@@ -551,10 +547,8 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
         If organization is provided, only show assessments for that organization.
         Deduplicate by user (name preferred, fallback to email) and keep only the latest entry.
         """
-        script_dir = os.path.dirname(os.path.abspath(__file__))
         try:
-            database_file = os.path.join(
-                script_dir, 'app_permissions_assessment_database.json')
+            database_file = 'app_permissions_assessment_database.json'
             if not os.path.exists(database_file):
                 print("📊 No assessment database found to build leaderboard.")
                 return
@@ -623,8 +617,6 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
           - dict representing a single previous result -> convert to {'results': [old, new]}
           - list -> treat as list of results and append
         """
-        script_dir = os.path.dirname(os.path.abspath(__file__))
-        results_path = os.path.join(script_dir, results_path)
         try:
             # Read existing content if present
             if os.path.exists(results_path):
@@ -717,8 +709,7 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
             print("2. Review the Quiz with Explanations")
             print("3. View Priority Improvement Areas")
             print("4. Compare Your Level (with last score)")
-            print("5. Educational Resources & Learning")
-            print("6. Save Results and Exit")
+            print("5. Save Results and Exit")
 
             choice = input("\nEnter your choice (1-6): ").strip()
 
@@ -734,28 +725,6 @@ Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.
                 comparison = self.compare_with_last_score()
                 print(comparison)
             elif choice == '5':
-                # Launch educational resources (moved here from main menu)
-                try:
-                    # dynamic import to avoid circular import issues
-                    from app_permissions_educational_resources import AppPermissionsEducationalManager
-                    educ_mgr = AppPermissionsEducationalManager()
-                    # derive weak areas from user_scores
-                    weak_areas = [
-                        q for q, s in user_scores.items() if s.get('score', 0) < 7]
-                    educ_result = educ_mgr.run_educational_session(
-                        percentage, weak_areas)
-                    # show brief summary
-                    print("\n📚 Educational resources prepared for you:")
-                    print(f" - Level: {educ_result.get('level')}")
-                    top_topic = next(
-                        iter(educ_result.get('resources', {}).keys()), None)
-                    if top_topic:
-                        recs = educ_result['resources'][top_topic]['recommended'][:3]
-                        for r in recs:
-                            print(f"   • {r['title']} - {r['url']}")
-                except Exception as e:
-                    print(f"❌ Could not open educational resources: {e}")
-            elif choice == '6':
                 # Save and exit
                 database_file = self.save_to_assessment_database(user_data)
                 print(
