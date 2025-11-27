@@ -7,7 +7,7 @@
             "proficiency": "School",
             "education": "O/L"
         },
-        "explanation": "Machan, this idea is wrong. Passwords are not about typing speed. Imagine your school bag lock: you don’t pick a weak lock just because it opens faster. The risk is, if one password is stolen, hackers open every account. Better: use different keys (passwords) for each door (account)."
+        "explanation": "Malli, this idea is wrong. Passwords are not about typing speed. Imagine your school bag lock: you don’t pick a weak lock just because it opens faster. The risk is, if one password is stolen, hackers open every account. Better: use different keys (passwords) for each door (account)."
     },
     {
         "questionId": "Q2",
@@ -17,7 +17,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Putha, thinking about typing speed is a mistake. Security is not about convenience alone. Just like in A/L exams, you don’t write short answers only to save time — you need the correct detail. Reusing one password is like using one master key for every classroom — if lost, all rooms are open. Use unique ones instead."
+        "explanation": "Malli, thinking about typing speed is a mistake. Security is not about convenience alone. Just like in A/L exams, you don’t write short answers only to save time — you need the correct detail. Reusing one password is like using one master key for every classroom — if lost, all rooms are open. Use unique ones instead."
     },
     {
         "questionId": "Q2",
@@ -27,7 +27,7 @@
             "proficiency": "School",
             "education": "HND"
         },
-        "explanation": "Machang, saying reusing passwords is about typing faster is a wrong mindset. Security breaches don’t care how fast you type. It’s like locking all labs with the same key — faster, yes, but if stolen, every lab is at risk. Instead, use different strong passwords, and a manager to save effort."
+        "explanation": "Malli, saying reusing passwords is about typing faster is a wrong mindset. Security breaches don’t care how fast you type. It’s like locking all labs with the same key — faster, yes, but if stolen, every lab is at risk. Instead, use different strong passwords, and a manager to save effort."
     },
     {
         "questionId": "Q2",
@@ -37,7 +37,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Putha, at degree level you must realize this is a misunderstanding. Typing speed is never the real issue — risk is. If you use one password, a single breach compromises all. It’s like publishing one key for every research lab in university — quick to use, but total disaster if stolen. Use unique passwords + 2FA."
+        "explanation": "Malli, at degree level you must realize this is a misunderstanding. Typing speed is never the real issue — risk is. If you use one password, a single breach compromises all. It’s like publishing one key for every research lab in university — quick to use, but total disaster if stolen. Use unique passwords + 2FA."
     },
     {
         "questionId": "Q2",
@@ -47,7 +47,7 @@
             "proficiency": "High",
             "education": "O/L"
         },
-        "explanation": "Machan, with your IT skill you know typing faster is not the problem. It’s about risk. Think of your phone lock: if the same PIN unlocked your phone, laptop, and ATM, one leak = total loss. That’s why every service needs unique passwords."
+        "explanation": "Malli, with your IT skill you know typing faster is not the problem. It’s about risk. Think of your phone lock: if the same PIN unlocked your phone, laptop, and ATM, one leak = total loss. That’s why every service needs unique passwords."
     },
     {
         "questionId": "Q2",
@@ -57,7 +57,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Putha, you already know efficiency ≠ security. Saying reusing is only about typing speed is wrong. Like coding — if you reuse the same weak snippet everywhere, one bug crashes the whole system. Same with passwords. Use unique, high-entropy keys for each account."
+        "explanation": "Malli, you already know efficiency ≠ security. Saying reusing is only about typing speed is wrong. Like coding — if you reuse the same weak snippet everywhere, one bug crashes the whole system. Same with passwords. Use unique, high-entropy keys for each account."
     },
     {
         "questionId": "Q2",
@@ -67,7 +67,7 @@
             "proficiency": "High",
             "education": "HND"
         },
-        "explanation": "Machang, typing effort is not the problem. Attackers use breached databases, not your keyboard speed. If you reuse one password, credential stuffing compromises all accounts. It’s like one firewall rule for every server — easy to manage, but if broken, everything is exposed."
+        "explanation": "Malli, typing effort is not the problem. Attackers use breached databases, not your keyboard speed. If you reuse one password, credential stuffing compromises all accounts. It’s like one firewall rule for every server — easy to manage, but if broken, everything is exposed."
     },
     {
         "questionId": "Q2",
@@ -77,7 +77,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Putha, at degree level you understand — this answer reflects misunderstanding. Security is about containment. One shared password breaks containment. Like cryptography: reusing keys across systems = total failure. Always segregate passwords and protect with 2FA."
+        "explanation": "Malli, at degree level you understand — this answer reflects misunderstanding. Security is about containment. One shared password breaks containment. Like cryptography: reusing keys across systems = total failure. Always segregate passwords and protect with 2FA."
     },
     {
         "questionId": "Q2",
@@ -97,7 +97,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Duwa, convenience is not the reason for password rules. Reusing one password is like using the same exam pad for every subject — if you lose it, you lose all subjects. Better to keep different ones for safety."
+        "explanation": "Nangi, convenience is not the reason for password rules. Reusing one password is like using the same exam pad for every subject — if you lose it, you lose all subjects. Better to keep different ones for safety."
     },
     {
         "questionId": "Q2",
@@ -117,7 +117,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Duwa, this answer is incorrect. Typing speed is not the issue — exposure is. At degree level you know single points of failure are dangerous. If one password is stolen, every account is open. That’s why professionals use managers and unique keys."
+        "explanation": "Nangi, this answer is incorrect. Typing speed is not the issue — exposure is. At degree level you know single points of failure are dangerous. If one password is stolen, every account is open. That’s why professionals use managers and unique keys."
     },
     {
         "questionId": "Q2",
@@ -137,7 +137,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Duwa, you know from IT class that this answer is wrong. It’s like software reuse without testing — one bug spreads everywhere. One password across accounts spreads breach risk everywhere. Always diversify your keys."
+        "explanation": "Nangi, you know from IT class that this answer is wrong. It’s like software reuse without testing — one bug spreads everywhere. One password across accounts spreads breach risk everywhere. Always diversify your keys."
     },
     {
         "questionId": "Q2",
@@ -157,7 +157,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Duwa, with degree-level knowledge you know — single password reuse is catastrophic. It’s like reusing one encryption key for every database — if leaked, all data gone. Use unique passwords, supported by 2FA and managers."
+        "explanation": "Nangi, with degree-level knowledge you know — single password reuse is catastrophic. It’s like reusing one encryption key for every database — if leaked, all data gone. Use unique passwords, supported by 2FA and managers."
     },
     {
         "questionId": "Q2",
@@ -167,7 +167,7 @@
             "proficiency": "School",
             "education": "O/L"
         },
-        "explanation": "Machan, even a strong password is not safe if reused everywhere. Imagine you use the same strong padlock key for your school bag, bicycle, and house. If someone copies it once, they can open everything. Better to have different keys (passwords) so one loss doesn’t ruin all."
+        "explanation": "Malli, even a strong password is not safe if reused everywhere. Imagine you use the same strong padlock key for your school bag, bicycle, and house. If someone copies it once, they can open everything. Better to have different keys (passwords) so one loss doesn’t ruin all."
     },
     {
         "questionId": "Q2",
@@ -177,7 +177,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Putha, strong doesn’t mean safe if used everywhere. Think of A/L tuition: even if your one notebook is neat and strong, if you lose it, you lose all subjects. Same with passwords — reuse = total loss. Safer to keep each subject (account) separate."
+        "explanation": "Malli, strong doesn’t mean safe if used everywhere. Think of A/L tuition: even if your one notebook is neat and strong, if you lose it, you lose all subjects. Same with passwords — reuse = total loss. Safer to keep each subject (account) separate."
     },
     {
         "questionId": "Q2",
@@ -187,7 +187,7 @@
             "proficiency": "School",
             "education": "HND"
         },
-        "explanation": "Machang, this is a half-truth. A strong password is good, but reusing it everywhere is still risky. Like using the same assignment for every HND module — strong in one place, but plagiarism everywhere else. If leaked, attackers can enter all accounts."
+        "explanation": "Malli, this is a half-truth. A strong password is good, but reusing it everywhere is still risky. Like using the same assignment for every HND module — strong in one place, but plagiarism everywhere else. If leaked, attackers can enter all accounts."
     },
     {
         "questionId": "Q2",
@@ -197,7 +197,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Putha, at degree level you know strength ≠ uniqueness. A strong reused password is like a high-quality research paper copied across modules — once exposed, all fail. Attackers use credential stuffing, so one leak compromises all accounts."
+        "explanation": "Malli, at degree level you know strength ≠ uniqueness. A strong reused password is like a high-quality research paper copied across modules — once exposed, all fail. Attackers use credential stuffing, so one leak compromises all accounts."
     },
     {
         "questionId": "Q2",
@@ -207,7 +207,7 @@
             "proficiency": "High",
             "education": "O/L"
         },
-        "explanation": "Machan, even with IT skill, don’t trust reuse. Hackers rely on credential stuffing. It’s like having the same PIN for your phone, ATM, and email. Even if it’s a strong PIN, one leak opens all doors."
+        "explanation": "Malli, even with IT skill, don’t trust reuse. Hackers rely on credential stuffing. It’s like having the same PIN for your phone, ATM, and email. Even if it’s a strong PIN, one leak opens all doors."
     },
     {
         "questionId": "Q2",
@@ -217,7 +217,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Putha, this is a common misconception. Entropy doesn’t help if reused. Like coding — one good function copied everywhere, but if it has a bug, the whole system breaks. That’s why passwords must be unique, not just strong."
+        "explanation": "Malli, this is a common misconception. Entropy doesn’t help if reused. Like coding — one good function copied everywhere, but if it has a bug, the whole system breaks. That’s why passwords must be unique, not just strong."
     },
     {
         "questionId": "Q2",
@@ -227,7 +227,7 @@
             "proficiency": "High",
             "education": "HND"
         },
-        "explanation": "Machang, strong but reused = single point of failure. Like one SSL certificate reused for every website — technically strong, but compromise of one means compromise of all. Passwords need uniqueness as much as strength."
+        "explanation": "Malli, strong but reused = single point of failure. Like one SSL certificate reused for every website — technically strong, but compromise of one means compromise of all. Passwords need uniqueness as much as strength."
     },
     {
         "questionId": "Q2",
@@ -237,7 +237,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Putha, at degree-level IT you know — reuse defeats strength. Even with 16 chars + symbols, once exposed in one breach, attackers use automated tools across all platforms. It’s like reusing encryption keys — total compromise."
+        "explanation": "Malli, at degree-level IT you know — reuse defeats strength. Even with 16 chars + symbols, once exposed in one breach, attackers use automated tools across all platforms. It’s like reusing encryption keys — total compromise."
     },
     {
         "questionId": "Q2",
@@ -257,7 +257,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Duwa, strong does not mean safe everywhere. Like bringing one notebook for every A/L subject — neat, but if you lose it, all your notes are gone. Same for passwords: one stolen = every account open."
+        "explanation": "Nangi, strong does not mean safe everywhere. Like bringing one notebook for every A/L subject — neat, but if you lose it, all your notes are gone. Same for passwords: one stolen = every account open."
     },
     {
         "questionId": "Q2",
@@ -277,7 +277,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Duwa, at degree stage you know strong ≠ safe if reused. One strong password across accounts is like one master key for your entire campus. Lose it once, and everything is compromised. Safer = unique credentials with 2FA."
+        "explanation": "Nangi, at degree stage you know strong ≠ safe if reused. One strong password across accounts is like one master key for your entire campus. Lose it once, and everything is compromised. Safer = unique credentials with 2FA."
     },
     {
         "questionId": "Q2",
@@ -297,7 +297,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Duwa, even if complex, reuse is the weak link. Like one power line feeding all buildings — if cut, all are dark. That’s why IT teaches defense in depth — separate keys for each service."
+        "explanation": "Nangi, even if complex, reuse is the weak link. Like one power line feeding all buildings — if cut, all are dark. That’s why IT teaches defense in depth — separate keys for each service."
     },
     {
         "questionId": "Q2",
@@ -317,7 +317,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Duwa, this is a false sense of security. Strong reused passwords fail against real-world attacks. It’s like reusing one encryption certificate across multiple systems. Once leaked, everything breaks. Always unique + 2FA."
+        "explanation": "Nangi, this is a false sense of security. Strong reused passwords fail against real-world attacks. It’s like reusing one encryption certificate across multiple systems. Once leaked, everything breaks. Always unique + 2FA."
     },
     {
         "questionId": "Q2",
@@ -327,7 +327,7 @@
             "proficiency": "School",
             "education": "O/L"
         },
-        "explanation": "Machan, this is risky thinking. Even small accounts can be an entry point for hackers. Imagine using the same key for your bicycle and house — one small theft can lead to bigger loss. Always use unique passwords, even for 'less important' accounts."
+        "explanation": "Malli, this is risky thinking. Even small accounts can be an entry point for hackers. Imagine using the same key for your bicycle and house — one small theft can lead to bigger loss. Always use unique passwords, even for 'less important' accounts."
     },
     {
         "questionId": "Q2",
@@ -337,7 +337,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Putha, thinking some accounts are unimportant is a mistake. Like ignoring small tuition notes — if lost, it affects your overall marks. Similarly, small accounts can lead to bigger breaches. Unique passwords protect you."
+        "explanation": "Malli, thinking some accounts are unimportant is a mistake. Like ignoring small tuition notes — if lost, it affects your overall marks. Similarly, small accounts can lead to bigger breaches. Unique passwords protect you."
     },
     {
         "questionId": "Q2",
@@ -347,7 +347,7 @@
             "proficiency": "School",
             "education": "HND"
         },
-        "explanation": "Machang, even if an account seems minor, hackers can exploit it to reach your main accounts. Like using the same assignment file for all modules — if one fails, it affects all. Unique passwords prevent cascading risks."
+        "explanation": "Malli, even if an account seems minor, hackers can exploit it to reach your main accounts. Like using the same assignment file for all modules — if one fails, it affects all. Unique passwords prevent cascading risks."
     },
     {
         "questionId": "Q2",
@@ -357,7 +357,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Putha, thinking some accounts are unimportant is misleading. At degree-level, you know small errors propagate. One weak password in a minor service can compromise major ones. Always separate passwords by account."
+        "explanation": "Malli, thinking some accounts are unimportant is misleading. At degree-level, you know small errors propagate. One weak password in a minor service can compromise major ones. Always separate passwords by account."
     },
     {
         "questionId": "Q2",
@@ -367,7 +367,7 @@
             "proficiency": "High",
             "education": "O/L"
         },
-        "explanation": "Machan, your IT knowledge should tell you that even 'minor' accounts can be exploited. Like one weak Wi-Fi hotspot affecting a whole network. Treat every password with care and use unique credentials."
+        "explanation": "Malli, your IT knowledge should tell you that even 'minor' accounts can be exploited. Like one weak Wi-Fi hotspot affecting a whole network. Treat every password with care and use unique credentials."
     },
     {
         "questionId": "Q2",
@@ -377,7 +377,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Putha, even if an account seems unimportant, attackers can use it to reach bigger systems. Like a small vulnerability in code crashing the entire program. Unique passwords for every account are key."
+        "explanation": "Malli, even if an account seems unimportant, attackers can use it to reach bigger systems. Like a small vulnerability in code crashing the entire program. Unique passwords for every account are key."
     },
     {
         "questionId": "Q2",
@@ -387,7 +387,7 @@
             "proficiency": "High",
             "education": "HND"
         },
-        "explanation": "Machang, reusing passwords on minor accounts is dangerous. Hackers use these to escalate access. Like one weak server exposing the whole HND lab network. Use unique, strong passwords everywhere."
+        "explanation": "Malli, reusing passwords on minor accounts is dangerous. Hackers use these to escalate access. Like one weak server exposing the whole HND lab network. Use unique, strong passwords everywhere."
     },
     {
         "questionId": "Q2",
@@ -397,7 +397,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Putha, from a professional IT standpoint, assuming some accounts don’t matter is a false sense of security. One breached account can compromise others via credential stuffing. Always use unique passwords and 2FA."
+        "explanation": "Malli, from a professional IT standpoint, assuming some accounts don’t matter is a false sense of security. One breached account can compromise others via credential stuffing. Always use unique passwords and 2FA."
     },
     {
         "questionId": "Q2",
@@ -417,7 +417,7 @@
             "proficiency": "School",
             "education": "A/L"
         },
-        "explanation": "Duwa, thinking some accounts are unimportant is risky. Like ignoring small A/L notes — one lost note affects your overall score. Even minor accounts need unique passwords."
+        "explanation": "Nangi, thinking some accounts are unimportant is risky. Like ignoring small A/L notes — one lost note affects your overall score. Even minor accounts need unique passwords."
     },
     {
         "questionId": "Q2",
@@ -437,7 +437,7 @@
             "proficiency": "School",
             "education": "Degree"
         },
-        "explanation": "Duwa, small accounts are not risk-free. One weak password can compromise others. At degree-level, you know the importance of compartmentalization. Separate passwords are safer."
+        "explanation": "Nangi, small accounts are not risk-free. One weak password can compromise others. At degree-level, you know the importance of compartmentalization. Separate passwords are safer."
     },
     {
         "questionId": "Q2",
@@ -457,7 +457,7 @@
             "proficiency": "High",
             "education": "A/L"
         },
-        "explanation": "Duwa, assuming some accounts are not important is wrong. Hackers can exploit them to reach critical accounts. Unique credentials for each account are essential."
+        "explanation": "Nangi, assuming some accounts are not important is wrong. Hackers can exploit them to reach critical accounts. Unique credentials for each account are essential."
     },
     {
         "questionId": "Q2",
@@ -477,7 +477,7 @@
             "proficiency": "High",
             "education": "Degree"
         },
-        "explanation": "Duwa, from professional IT view, minor accounts are not safe to reuse. One breached account compromises others. Unique passwords and 2FA are required for security."
+        "explanation": "Nangi, from professional IT view, minor accounts are not safe to reuse. One breached account compromises others. Unique passwords and 2FA are required for security."
     },
     [
         {
@@ -488,7 +488,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, a safe password app does NOT send your passwords to anyone. Imagine giving your house keys to a stranger — that’s exactly what happens if an app sends your passwords. Always choose apps that encrypt and store passwords securely."
+            "explanation": "Malli, a safe password app does NOT send your passwords to anyone. Imagine giving your house keys to a stranger — that’s exactly what happens if an app sends your passwords. Always choose apps that encrypt and store passwords securely."
         },
         {
             "questionId": "Q3",
@@ -498,7 +498,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, sending passwords is extremely unsafe. Like lending your wallet to a friend — one mistake and everything is gone. Password apps are meant to protect, not share. Always check app security before trusting it."
+            "explanation": "Malli, sending passwords is extremely unsafe. Like lending your wallet to a friend — one mistake and everything is gone. Password apps are meant to protect, not share. Always check app security before trusting it."
         },
         {
             "questionId": "Q3",
@@ -508,7 +508,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, choosing an app that sends passwords is wrong. Imagine your HND project files being emailed to everyone automatically — disaster. Use apps that encrypt and store them locally or in secure cloud."
+            "explanation": "Malli, choosing an app that sends passwords is wrong. Imagine your HND project files being emailed to everyone automatically — disaster. Use apps that encrypt and store them locally or in secure cloud."
         },
         {
             "questionId": "Q3",
@@ -518,7 +518,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, sending passwords defeats the whole purpose. Think of your research lab — sharing your secure key with others would ruin your work. Use apps that lock and encrypt passwords only for your access."
+            "explanation": "Malli, sending passwords defeats the whole purpose. Think of your research lab — sharing your secure key with others would ruin your work. Use apps that lock and encrypt passwords only for your access."
         },
         {
             "questionId": "Q3",
@@ -528,7 +528,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, even with IT skills, you know sending passwords is insecure. Like leaving your server credentials in public — anyone can log in. Use encrypted password managers instead."
+            "explanation": "Malli, even with IT skills, you know sending passwords is insecure. Like leaving your server credentials in public — anyone can log in. Use encrypted password managers instead."
         },
         {
             "questionId": "Q3",
@@ -538,7 +538,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, apps that send passwords are dangerous. Think of a network admin sharing all passwords with outsiders — complete breach. Always select apps that encrypt locally and keep secrets safe."
+            "explanation": "Malli, apps that send passwords are dangerous. Think of a network admin sharing all passwords with outsiders — complete breach. Always select apps that encrypt locally and keep secrets safe."
         },
         {
             "questionId": "Q3",
@@ -548,7 +548,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, sending passwords is equivalent to giving away all server keys. Even strong passwords are useless if exposed. Password managers exist to store safely, not distribute."
+            "explanation": "Malli, sending passwords is equivalent to giving away all server keys. Even strong passwords are useless if exposed. Password managers exist to store safely, not distribute."
         },
         {
             "questionId": "Q3",
@@ -558,7 +558,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, from professional IT perspective, apps that send passwords defeat encryption principles. Imagine sharing private cryptography keys — complete compromise. Use encrypted, secure managers instead."
+            "explanation": "Malli, from professional IT perspective, apps that send passwords defeat encryption principles. Imagine sharing private cryptography keys — complete compromise. Use encrypted, secure managers instead."
         },
         {
             "questionId": "Q3",
@@ -578,7 +578,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, sending passwords is risky. Like sharing your school diary with everyone — your secrets are gone. Choose apps that encrypt and keep your passwords private."
+            "explanation": "Nangi, sending passwords is risky. Like sharing your school diary with everyone — your secrets are gone. Choose apps that encrypt and keep your passwords private."
         },
         {
             "questionId": "Q3",
@@ -598,7 +598,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, sharing passwords via app defeats the purpose. Think of your degree research work — exposing it ruins everything. Use apps that encrypt and store passwords securely."
+            "explanation": "Nangi, sharing passwords via app defeats the purpose. Think of your degree research work — exposing it ruins everything. Use apps that encrypt and store passwords securely."
         },
         {
             "questionId": "Q3",
@@ -618,7 +618,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, apps that send passwords are dangerous. Like exposing server credentials to outsiders — complete security breach. Only use encrypted, trusted password managers."
+            "explanation": "Nangi, apps that send passwords are dangerous. Like exposing server credentials to outsiders — complete security breach. Only use encrypted, trusted password managers."
         },
         {
             "questionId": "Q3",
@@ -638,7 +638,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, from IT/degree-level view, sharing passwords defeats all encryption rules. Like leaking private cryptography keys — total compromise. Always use secure, encrypted password managers."
+            "explanation": "Nangi, from IT/degree-level view, sharing passwords defeats all encryption rules. Like leaking private cryptography keys — total compromise. Always use secure, encrypted password managers."
         },
         {
             "questionId": "Q3",
@@ -648,7 +648,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, writing passwords on paper is not safe. Imagine your school notebook with all your exam answers lying around — anyone can see it. Password apps keep them locked securely so only you can access."
+            "explanation": "Malli, writing passwords on paper is not safe. Imagine your school notebook with all your exam answers lying around — anyone can see it. Password apps keep them locked securely so only you can access."
         },
         {
             "questionId": "Q3",
@@ -658,7 +658,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, keeping passwords on paper is risky. Like writing down your tuition answers for all subjects and leaving it on your desk — easy for someone to copy. Password apps encrypt and protect them safely."
+            "explanation": "Malli, keeping passwords on paper is risky. Like writing down your tuition answers for all subjects and leaving it on your desk — easy for someone to copy. Password apps encrypt and protect them safely."
         },
         {
             "questionId": "Q3",
@@ -668,7 +668,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, paper notes for passwords are unsafe. Imagine your HND project details written on sticky notes — one glance by a classmate, all exposed. Password apps safely store and encrypt your credentials."
+            "explanation": "Malli, paper notes for passwords are unsafe. Imagine your HND project details written on sticky notes — one glance by a classmate, all exposed. Password apps safely store and encrypt your credentials."
         },
         {
             "questionId": "Q3",
@@ -678,7 +678,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, writing passwords on paper defeats security. Like your degree research printed and left on a table — anyone can read. Password apps keep them encrypted and accessible only to you."
+            "explanation": "Malli, writing passwords on paper defeats security. Like your degree research printed and left on a table — anyone can read. Password apps keep them encrypted and accessible only to you."
         },
         {
             "questionId": "Q3",
@@ -688,7 +688,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, even with IT knowledge, paper is vulnerable. Like writing server credentials on a sticky note — anyone can grab it. Password managers encrypt and store your passwords safely."
+            "explanation": "Malli, even with IT knowledge, paper is vulnerable. Like writing server credentials on a sticky note — anyone can grab it. Password managers encrypt and store your passwords safely."
         },
         {
             "questionId": "Q3",
@@ -698,7 +698,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, keeping passwords on paper is insecure. Like writing coding passwords on a notebook — one mistake, total leak. Use password apps to lock and encrypt them securely."
+            "explanation": "Malli, keeping passwords on paper is insecure. Like writing coding passwords on a notebook — one mistake, total leak. Use password apps to lock and encrypt them securely."
         },
         {
             "questionId": "Q3",
@@ -708,7 +708,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, paper storage is outdated. Even strong passwords can be compromised if written down. Password apps encrypt and protect them from prying eyes."
+            "explanation": "Malli, paper storage is outdated. Even strong passwords can be compromised if written down. Password apps encrypt and protect them from prying eyes."
         },
         {
             "questionId": "Q3",
@@ -718,7 +718,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, at degree-level, you know paper notes are insecure. Like storing cryptography keys on sticky notes — total compromise risk. Use secure, encrypted password managers instead."
+            "explanation": "Malli, at degree-level, you know paper notes are insecure. Like storing cryptography keys on sticky notes — total compromise risk. Use secure, encrypted password managers instead."
         },
         {
             "questionId": "Q3",
@@ -738,7 +738,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, paper passwords are risky. Like your tuition notes left for friends to see — easily copied. Use password apps that encrypt and protect your passwords."
+            "explanation": "Nangi, paper passwords are risky. Like your tuition notes left for friends to see — easily copied. Use password apps that encrypt and protect your passwords."
         },
         {
             "questionId": "Q3",
@@ -758,7 +758,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, writing passwords on paper defeats security. Like leaving your degree thesis printed on a table — anyone can access. Password apps lock them and encrypt for your safety."
+            "explanation": "Nangi, writing passwords on paper defeats security. Like leaving your degree thesis printed on a table — anyone can access. Password apps lock them and encrypt for your safety."
         },
         {
             "questionId": "Q3",
@@ -778,7 +778,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, paper storage is insecure. Like writing admin credentials in a notebook — total exposure. Use password managers that encrypt and store passwords safely."
+            "explanation": "Nangi, paper storage is insecure. Like writing admin credentials in a notebook — total exposure. Use password managers that encrypt and store passwords safely."
         },
         {
             "questionId": "Q3",
@@ -798,7 +798,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, at degree-level, paper notes are insecure. Like leaving cryptography keys printed — total compromise. Use secure, encrypted password managers instead."
+            "explanation": "Nangi, at degree-level, paper notes are insecure. Like leaving cryptography keys printed — total compromise. Use secure, encrypted password managers instead."
         },
         {
             "questionId": "Q3",
@@ -808,7 +808,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, saving passwords in a simple file is not safe. Imagine writing all your school answers in one notebook and leaving it on the desk — anyone can see them. Password managers encrypt and protect passwords securely."
+            "explanation": "Malli, 2FA does take a few extra seconds, but it doesn’t slow you unnecessarily. Think of it like adding a small lock on your school bag — a tiny wait for much better safety."
         },
         {
             "questionId": "Q3",
@@ -818,7 +818,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, a simple file can be easily stolen or copied. Like keeping tuition notes in an open folder — one mistake, all notes gone. Password apps lock and encrypt them safely."
+            "explanation": "Malli, logging in might take a bit longer, but it’s worth it. Like checking your tuition notes twice before submitting — small delay, but prevents mistakes."
         },
         {
             "questionId": "Q3",
@@ -828,7 +828,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, storing passwords in a file is risky. Imagine all your HND project files in one folder on a shared computer — one glance and all exposed. Password managers encrypt and keep passwords secure."
+            "explanation": "Malli, a few extra steps don’t slow you much. Like adding a password to your lab PC — a bit longer, but keeps projects safe."
         },
         {
             "questionId": "Q3",
@@ -838,7 +838,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, a simple file does not protect passwords. Like keeping your degree thesis on desktop without encryption — anyone can access. Use password apps that encrypt and safely store passwords."
+            "explanation": "Malli, minor extra time is nothing compared to security. Like double-checking your thesis submission — small wait, big protection."
         },
         {
             "questionId": "Q3",
@@ -848,7 +848,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, even with IT knowledge, storing passwords in a plain file is unsafe. Like saving Wi-Fi credentials in a notepad — easily stolen. Use password managers with encryption."
+            "explanation": "Malli, 2FA’s extra step is negligible. Like a two-step lock on Wi-Fi — small wait, but much safer."
         },
         {
             "questionId": "Q3",
@@ -858,7 +858,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, simple files are vulnerable. Like saving admin credentials in a text file on PC — one hack and all lost. Password apps encrypt and secure them effectively."
+            "explanation": "Malli, it slightly adds time, but prevents hacking. Like extra encryption on office files — quick and essential."
         },
         {
             "questionId": "Q3",
@@ -868,7 +868,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, storing passwords in a simple file risks exposure. Like one weak server folder containing all passwords — hackers get everything. Use encrypted password managers."
+            "explanation": "Malli, 2FA adds minimal delay. Like securing lab servers with an extra OTP — small step, huge safety gain."
         },
         {
             "questionId": "Q3",
@@ -878,1131 +878,11 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, professional IT practice shows plain files are insecure. Like saving sensitive cryptography keys in a text file — total risk. Always use encrypted password management tools."
+            "explanation": "Malli, logging in a bit slower is fine. Like extra cryptography check — minor wait, maximum security."
         },
         {
             "questionId": "Q3",
             "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, storing passwords in a simple file is unsafe. Like keeping your diary with secrets on your desk — anyone can read. Password apps encrypt and protect passwords for only your access."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, simple files can be easily accessed. Like leaving your tuition notes open — one peek and all gone. Password managers lock and encrypt passwords safely."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, storing passwords in plain files is risky. Like all HND project details in one unprotected folder — one breach, all lost. Password managers encrypt and secure them."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, a simple file does not secure passwords. Like keeping your degree thesis on desktop without protection — anyone can access. Use secure, encrypted password apps."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even with IT skills, a simple file is unsafe. Like storing Wi-Fi passwords in notepad — easily exposed. Use password managers with strong encryption."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, storing passwords in plain files is risky. Like saving admin credentials in an unencrypted text file — total exposure. Password apps encrypt and protect them safely."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, simple file storage can expose all passwords. One hack and everything is compromised. Use encrypted password managers to keep them safe."
-        },
-        {
-            "questionId": "Q3",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, professional IT practice shows plain files are unsafe. Like saving sensitive keys unprotected — total compromise. Always use encrypted, secure password management apps."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, using your birthday is easy to remember but very risky. Imagine someone checking your school ID or Facebook — they can guess it easily. Always pick passwords that are hard for others to guess."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, birthdays are simple and memorable, but hackers can find them online. Like leaving your tuition diary public — easy for someone to read. Use random, strong passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, personal info like birthdays is predictable. Imagine all your HND classmates knowing your date — one try and your password is hacked. Choose complex passwords unrelated to you."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, even at degree level, using birthdays is unsafe. Like publishing your research online — anyone can use public info. Use unrelated, strong passwords for real security."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, using birthdays is predictable. Like keeping all Wi-Fi passwords as your birthday — hackers guess easily. Strong, random passwords are safer."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, personal info is easily guessable. Like sharing your office ID publicly — one glance and someone knows. Use strong passwords unrelated to personal data."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, birthdays are predictable even for strong IT users. Like exposing lab credentials — easily found. Random, complex passwords protect better."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, even professionals shouldn’t use birthdays. Public info can be exploited, like open-source data. Choose unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, birthdays are easy to remember but unsafe. Like leaving your diary with friends — anyone can guess. Pick strong passwords unrelated to personal info."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, using birthdays is risky. Friends or strangers can guess it. Like sharing tuition notes openly — one glance, all known. Use random passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, personal info is predictable. Like HND project file names — easy to guess. Strong, unrelated passwords are safer."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, even at degree level, birthdays are unsafe. Like publishing personal info online — attackers can guess. Use random, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, predictable info like birthdays is insecure. Like leaving your network credentials on sticky notes — easy to guess. Always use complex passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, personal info is risky to use. Like exposing office credentials online — hackers can exploit. Use random, strong passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, birthdays are predictable. Even in HND labs, personal info can be exploited. Always use unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, degree-level users know personal info is unsafe. Like sharing sensitive files publicly — easy to compromise. Always use strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, using personal info like birthdays doesn’t necessarily make a password short — the risk is predictability. Like thinking a small note is harmless, but anyone can read it. Always pick complex and unpredictable passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, the length isn’t the main problem — it’s easy to guess. Like leaving tuition answers in an open notebook — short or long, easy to copy. Use random passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, the issue isn’t shortness, it’s predictability. Like keeping all HND project passwords the same — even if long, it’s unsafe. Use strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, birthdays don’t shorten passwords but are predictable. Like sharing degree research titles publicly — even long, they can be guessed. Use random, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, password length isn’t the problem, predictability is. Like leaving Wi-Fi keys on sticky notes — anyone can try easily. Use strong, random passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, using personal info may be long enough, but hackers can guess it. Like sharing office IDs — predictability matters. Use unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, birthdays are not short, but predictable. Like one weak lab server — hackers exploit predictability, not length. Random complex passwords are safer."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, even strong IT users know personal info isn’t safe — predictability is the problem. Like open-source projects revealing patterns — always use random passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, birthdays don’t make passwords shorter but predictable. Like leaving your diary open — anyone can guess. Use strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, length isn’t the problem — hackers can guess birthdays. Like leaving tuition answers in the open — use strong random passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, personal info may not shorten passwords but is predictable. Like keeping HND lab passwords obvious — risky. Always use random, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, birthdays aren’t short but can be guessed. Like posting your degree research title online — unsafe. Pick unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, the real problem is predictability, not length. Like leaving Wi-Fi keys on sticky notes — easy to guess. Use encrypted, random passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, personal info can be long but predictable. Like sharing office IDs — attackers exploit patterns. Use strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, predictability is the real risk, not length. Even in HND labs, personal info can be guessed. Always pick complex, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, birthdays aren’t short but can be exploited. Like leaving sensitive files exposed — always use strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, even if a birthday is unique, it’s still guessable. Like your school ID — unique to you, but classmates can find it. Use passwords that are unpredictable and random."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, uniqueness doesn’t mean safe. Like your tuition roll number — unique but public. Strong, unrelated passwords are safer."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, even unique info can be found. Like HND project IDs — unique, but peers can know. Use complex, random passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, uniqueness alone isn’t safe. Like publishing your degree research code online — someone can guess it. Random strong passwords are better."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, even if it’s unique, personal info can be found. Like leaving Wi-Fi passwords as your birthday — attackers can figure it out. Use random, secure passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, uniqueness doesn’t ensure security. Like office ID numbers — unique but guessable. Always pick unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, even unique info can be discovered. Like lab project IDs — unique, but peers may know. Random, strong passwords are safer."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, unique personal info isn’t safe alone. Like exposing cryptography keys publicly — unique but compromised. Use encrypted random passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even if unique, personal info like birthdays can be guessed. Like your school diary — unique but visible. Use strong, unpredictable passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, uniqueness doesn’t guarantee safety. Like tuition roll numbers — unique, but classmates know. Pick random, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, even unique info can be discovered. Like HND project IDs — unique, but others can find. Use unrelated, strong passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, unique personal info isn’t enough. Like publishing your degree work — unique but visible. Always pick strong, random passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, uniqueness alone is risky. Like Wi-Fi passwords set as birthdays — attackers can guess. Use complex, random passwords instead."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, unique info may be public. Like office ID — unique but guessable. Always choose strong, unrelated passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, even unique info can be known. Like lab project IDs — safe only if random and complex. Use secure passwords."
-        },
-        {
-            "questionId": "Q4",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, unique personal info isn’t enough. Like publishing sensitive research — unique but can be compromised. Always use encrypted random passwords."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, it’s not about forgetting. Even if your friend forgets, sharing your password is risky. Imagine giving your tuition notebook to a friend — someone else might see it. Always keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, friends forgetting isn’t the main problem. Like lending your school diary — anyone can peek. Keep your password private and secure."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, it’s risky to share even with friends. Like giving your HND lab access — anyone can misuse it. Keep passwords confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, your friend forgetting isn’t the point. Like leaving your degree thesis access open — anyone can see. Always keep your passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, even with IT knowledge, sharing passwords is unsafe. Like giving your Wi-Fi password to everyone — anyone could misuse it. Keep it private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, friends forgetting is not the problem. Like exposing admin credentials — could be misused. Keep your password secure."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, sharing passwords risks security. Like leaving lab server credentials with a friend — one misuse can cause trouble. Always keep them private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, even experts know sharing passwords is risky. Like publishing cryptography keys to a friend — never safe. Keep them confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, friends forgetting isn’t the issue. Like lending your diary — anyone could see secrets. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, even if a friend forgets, sharing passwords is risky. Like leaving tuition notes exposed. Always keep them private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, passwords shared with friends can be misused. Like lending your HND lab project access — risky. Keep them confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, even if your friend forgets, sharing is unsafe. Like leaving your degree thesis for someone else to handle — never safe. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, sharing passwords is always unsafe. Like giving Wi-Fi credentials to a friend — can be misused. Keep them private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, forgetting isn’t the main concern. Like exposing admin credentials — anyone can misuse. Keep your password secure."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, sharing passwords risks your account. Like leaving lab server access with a friend — never safe. Keep passwords confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, experts know sharing passwords is dangerous. Like publishing cryptography keys — unsafe. Always keep them private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, sharing passwords doesn’t make them longer. Like adding friends’ names to your diary won’t make your notes safer — it just risks exposure. Password length is independent of sharing."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, friends won’t increase password security. Like lending tuition notes — length doesn’t matter, safety does. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, sharing doesn’t add length. Like sharing HND project access — doesn’t make it safer. Password security comes from complexity and secrecy."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, sharing doesn’t make passwords longer. Like publishing thesis access to friends — doesn’t help. Security comes from strong, private passwords."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, adding friends doesn’t change password length. Like giving Wi-Fi access to friends — length doesn’t increase security. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, sharing passwords won’t make them longer. Like exposing office credentials — safety depends on secrecy, not length."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, sharing doesn’t add length. Like lab server passwords — sharing risks exposure, not length. Keep passwords secret."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, length isn’t affected by sharing. Like cryptography keys — safety depends on secrecy, not sharing. Use private passwords."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, sharing doesn’t increase length. Like your diary notes — adding friends won’t help. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, password length doesn’t change when shared. Like leaving tuition notes exposed — length doesn’t make it safer. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, sharing doesn’t add length. Like HND lab access — secrecy matters, not length. Keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, sharing won’t make passwords longer. Like publishing thesis access — length is irrelevant, privacy matters. Keep passwords safe."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, sharing doesn’t increase length. Like giving Wi-Fi passwords — safety comes from secrecy, not length."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, password security depends on privacy, not length. Sharing doesn’t help — keep it secret."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, adding friends doesn’t make it longer. Like lab passwords — safety comes from keeping them private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, sharing doesn’t add length. Like sensitive project files — privacy is key. Keep passwords secret."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, friends remembering is not safe. Like lending your diary — even if they remember, others might see. Passwords should remain private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, trusting friends to remember isn’t safe. Like lending tuition notes — privacy matters. Keep passwords confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, even if friends remember, they can misuse it. Like lab project access — always private. Don’t share passwords."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, relying on friends isn’t safe. Like sharing thesis access — keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, friends remembering doesn’t make it secure. Like sharing Wi-Fi — keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, trusting friends isn’t safe. Like exposing office credentials — privacy is key."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, even if friends remember, passwords can be misused. Like lab servers — always confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, experts know not to trust friends for passwords. Keep them private and secure."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even if friends remember, it’s unsafe. Like lending your diary — keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, trusting friends isn’t secure. Like tuition notes — keep passwords confidential."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, friends remembering doesn’t protect passwords. Like lab project access — always private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, trusting friends isn’t safe. Like sharing thesis access — keep passwords private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, friends remembering isn’t enough. Like giving Wi-Fi passwords — always private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, trusting friends is risky. Like exposing office credentials — keep passwords secure."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, even if friends remember, it’s unsafe. Like lab server passwords — always private."
-        },
-        {
-            "questionId": "Q5",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, experts know not to share passwords. Keep them private and secure."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, 2FA does take a few extra seconds, but it doesn’t slow you unnecessarily. Think of it like adding a small lock on your school bag — a tiny wait for much better safety."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, logging in might take a bit longer, but it’s worth it. Like checking your tuition notes twice before submitting — small delay, but prevents mistakes."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, a few extra steps don’t slow you much. Like adding a password to your lab PC — a bit longer, but keeps projects safe."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, minor extra time is nothing compared to security. Like double-checking your thesis submission — small wait, big protection."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, 2FA’s extra step is negligible. Like a two-step lock on Wi-Fi — small wait, but much safer."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, it slightly adds time, but prevents hacking. Like extra encryption on office files — quick and essential."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, 2FA adds minimal delay. Like securing lab servers with an extra OTP — small step, huge safety gain."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, logging in a bit slower is fine. Like extra cryptography check — minor wait, maximum security."
-        },
-        {
-            "questionId": "Q6",
-            "option": "A",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
@@ -2011,18 +891,18 @@
             "explanation": "Nangi, 2FA doesn’t really slow you down. Like adding a lock to your diary — takes seconds but keeps it safe."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, a tiny wait for 2FA is worth it. Like checking tuition notes carefully before handing in — small delay, avoids trouble."
+            "explanation": "Nangi, a tiny wait for 2FA is worth it. Like checking tuition notes carefully before handing in — small delay, avoids trouble."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
@@ -2031,18 +911,18 @@
             "explanation": "Nangi, it’s a short extra step, not a slowdown. Like adding a lock to your lab project folder — safe and simple."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, a few seconds extra is nothing. Like confirming your thesis submission — tiny delay, big security."
+            "explanation": "Nangi, a few seconds extra is nothing. Like confirming your thesis submission — tiny delay, big security."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
@@ -2051,18 +931,18 @@
             "explanation": "Nangi, 2FA adds little time. Like two-step lock for Wi-Fi — tiny wait, much safer."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, extra seconds are fine. Like encrypting office files — minimal time for big protection."
+            "explanation": "Nangi, extra seconds are fine. Like encrypting office files — minimal time for big protection."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
@@ -2071,257 +951,177 @@
             "explanation": "Nangi, 2FA’s tiny step adds huge safety. Like OTP for lab server access — small effort, maximum benefit."
         },
         {
-            "questionId": "Q6",
-            "option": "A",
+            "questionId": "Q3",
+            "option": "C",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, a minor delay is nothing. Like extra verification for cryptography keys — small wait, big security."
+            "explanation": "Nangi, a minor delay is nothing. Like extra verification for cryptography keys — small wait, big security."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, 2FA doesn’t only work on phones. Just imagine, like school library locks — you can use a key, a card, or a code. Similarly, 2FA can use apps, SMS, or email."
+            "explanation": "Malli, 2FA doesn’t only work on phones. Just imagine, like school library locks — you can use a key, a card, or a code. Similarly, 2FA can use apps, SMS, or email."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, 2FA is flexible. Like tuition entry — can use a passcode or token. Phones are just one option."
+            "explanation": "Malli, 2FA is flexible. Like tuition entry — can use a passcode or token. Phones are just one option."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, 2FA works beyond phones. Like lab server locks — can be a card or OTP generator. Phones aren’t mandatory."
+            "explanation": "Malli, 2FA works beyond phones. Like lab server locks — can be a card or OTP generator. Phones aren’t mandatory."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, 2FA is not phone-exclusive. Like securing thesis files — SMS, email, or app codes all work. Phones are just convenient."
+            "explanation": "Malli, 2FA is not phone-exclusive. Like securing thesis files — SMS, email, or app codes all work. Phones are just convenient."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, 2FA can use multiple methods. Like Wi-Fi extra security — can be OTP or app-based. Phones are one method only."
+            "explanation": "Malli, 2FA can use multiple methods. Like Wi-Fi extra security — can be OTP or app-based. Phones are one method only."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, 2FA isn’t only phones. Like office VPN login — can use email, SMS, or app codes. Phones are optional."
+            "explanation": "Malli, 2FA isn’t only phones. Like office VPN login — can use email, SMS, or app codes. Phones are optional."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, 2FA works beyond phones. Like lab server OTP or hardware token — phone is just one way."
+            "explanation": "Malli, 2FA works beyond phones. Like lab server OTP or hardware token — phone is just one way."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "C",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, 2FA is flexible. Like cryptography system access — can use multiple verification methods. Phones aren’t required."
+            "explanation": "Malli, 2FA is flexible. Like cryptography system access — can use multiple verification methods. Phones aren’t required."
         },
         {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, 2FA doesn’t only use phones. Like library entry — keys, cards, or codes work too."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, phones are just one option. Like tuition access — passcode or token works as well."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, 2FA isn’t phone-exclusive. Like lab servers — can use hardware token or app codes."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, 2FA works on many devices. Like thesis file security — SMS, app, or email codes all work. Phones are convenient, not mandatory."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, 2FA has multiple methods. Like Wi-Fi lock — OTP or app code works. Phones aren’t required."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, phones are not mandatory. Like office VPN — SMS, app, or email codes work for 2FA."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, 2FA can use OTP generators, hardware tokens, or apps — not only phones."
-        },
-        {
-            "questionId": "Q6",
-            "option": "C",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, 2FA is flexible. Like cryptography system access — multiple verification methods, phone is just one."
-        },
-        {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, 2FA doesn’t replace your password. Think of it like a second lock on your school bag — your main lock (password) is still needed, 2FA just adds extra protection."
+            "explanation": "Malli, 2FA doesn’t replace your password. Think of it like a second lock on your school bag — your main lock (password) is still needed, 2FA just adds extra protection."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, your password is still required. 2FA is an additional step, like a tuition attendance stamp — it doesn’t remove your main login."
+            "explanation": "Malli, your password is still required. 2FA is an additional step, like a tuition attendance stamp — it doesn’t remove your main login."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, 2FA complements your password. Like lab server access — you still need your username/password, 2FA is extra security."
+            "explanation": "Malli, 2FA complements your password. Like lab server access — you still need your username/password, 2FA is extra security."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, 2FA doesn’t replace the main password. Like thesis submission — you need your login plus OTP to secure access."
+            "explanation": "Malli, 2FA doesn’t replace the main password. Like thesis submission — you need your login plus OTP to secure access."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, 2FA adds security but doesn’t remove your password. Like extra Wi-Fi lock — still need main password."
+            "explanation": "Malli, 2FA adds security but doesn’t remove your password. Like extra Wi-Fi lock — still need main password."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, password is mandatory. 2FA is a second verification, like a bank OTP after your PIN — doesn’t replace it."
+            "explanation": "Malli, password is mandatory. 2FA is a second verification, like a bank OTP after your PIN — doesn’t replace it."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, 2FA is an extra layer, not a replacement. Lab server login still needs username/password plus OTP."
+            "explanation": "Malli, 2FA is an extra layer, not a replacement. Lab server login still needs username/password plus OTP."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Male",
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, even experts know 2FA doesn’t replace passwords. Like cryptography access — main password plus 2FA needed."
+            "explanation": "Malli, even experts know 2FA doesn’t replace passwords. Like cryptography access — main password plus 2FA needed."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
@@ -2331,17 +1131,17 @@
             "explanation": "Nangi, 2FA doesn’t remove your password. Like school diary lock — main key needed, extra code adds security."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, password is still needed. 2FA is like tuition entry stamp — extra step, main login remains."
+            "explanation": "Nangi, password is still needed. 2FA is like tuition entry stamp — extra step, main login remains."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
@@ -2351,17 +1151,17 @@
             "explanation": "Nangi, 2FA complements the password. Lab project access still needs main password plus OTP."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, main password is mandatory. 2FA is like double-checking thesis submission — extra security."
+            "explanation": "Nangi, main password is mandatory. 2FA is like double-checking thesis submission — extra security."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
@@ -2371,17 +1171,17 @@
             "explanation": "Nangi, 2FA is an additional layer, not a replacement. Like extra Wi-Fi lock — still need main password."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, password remains necessary. 2FA acts like a bank OTP after your PIN — doesn’t replace it."
+            "explanation": "Nangi, password remains necessary. 2FA acts like a bank OTP after your PIN — doesn’t replace it."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
@@ -2391,14 +1191,14 @@
             "explanation": "Nangi, 2FA adds security, doesn’t replace your main password. Lab server login still requires both password and OTP."
         },
         {
-            "questionId": "Q6",
+            "questionId": "Q3",
             "option": "D",
             "profile": {
                 "gender": "Female",
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, main password is always needed. 2FA is extra verification, like double-checking cryptography system access."
+            "explanation": "Nangi, main password is always needed. 2FA is extra verification, like double-checking cryptography system access."
         },
         {
             "questionId": "Q7",
@@ -2408,7 +1208,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, keeping the same password after a leak is very risky. Imagine your tuition notes got copied by someone — you wouldn’t keep using them. Change it everywhere to stay safe."
+            "explanation": "Malli, keeping the same password after a leak is very risky. Imagine your tuition notes got copied by someone — you wouldn’t keep using them. Change it everywhere to stay safe."
         },
         {
             "questionId": "Q7",
@@ -2418,7 +1218,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, using a leaked password is unsafe. Like if your exam answers were shared — you’d change them to avoid trouble. Change passwords immediately."
+            "explanation": "Malli, using a leaked password is unsafe. Like if your exam answers were shared — you’d change them to avoid trouble. Change passwords immediately."
         },
         {
             "questionId": "Q7",
@@ -2428,7 +1228,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, keeping the same password is dangerous. Like leaving lab project files exposed — hackers can misuse them. Change all affected passwords."
+            "explanation": "Malli, keeping the same password is dangerous. Like leaving lab project files exposed — hackers can misuse them. Change all affected passwords."
         },
         {
             "questionId": "Q7",
@@ -2438,7 +1238,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, don’t ignore a leaked password. Like thesis drafts leaked online — secure all copies. Change your passwords everywhere."
+            "explanation": "Malli, don’t ignore a leaked password. Like thesis drafts leaked online — secure all copies. Change your passwords everywhere."
         },
         {
             "questionId": "Q7",
@@ -2448,7 +1248,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, using the same password is unsafe. Like leaving your Wi-Fi password public — hackers can access everything. Change it promptly."
+            "explanation": "Malli, using the same password is unsafe. Like leaving your Wi-Fi password public — hackers can access everything. Change it promptly."
         },
         {
             "questionId": "Q7",
@@ -2458,7 +1258,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, ignoring a breach is dangerous. Like office credentials leaked — update all affected accounts immediately."
+            "explanation": "Malli, ignoring a breach is dangerous. Like office credentials leaked — update all affected accounts immediately."
         },
         {
             "questionId": "Q7",
@@ -2468,7 +1268,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, keeping passwords after a leak is risky. Lab server passwords exposed? Change all relevant passwords right away."
+            "explanation": "Malli, keeping passwords after a leak is risky. Lab server passwords exposed? Change all relevant passwords right away."
         },
         {
             "questionId": "Q7",
@@ -2478,7 +1278,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, leaked passwords compromise security. Like cryptography keys exposed — change immediately across all systems."
+            "explanation": "Malli, leaked passwords compromise security. Like cryptography keys exposed — change immediately across all systems."
         },
         {
             "questionId": "Q7",
@@ -2498,7 +1298,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, a leaked password must be changed. Like tuition notes exposed — update passwords on all accounts."
+            "explanation": "Nangi, a leaked password must be changed. Like tuition notes exposed — update passwords on all accounts."
         },
         {
             "questionId": "Q7",
@@ -2518,7 +1318,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, ignoring a breach is risky. Like thesis drafts leaked — change all relevant passwords promptly."
+            "explanation": "Nangi, ignoring a breach is risky. Like thesis drafts leaked — change all relevant passwords promptly."
         },
         {
             "questionId": "Q7",
@@ -2538,7 +1338,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, ignoring a breach is unsafe. Like office login leaked — change passwords everywhere."
+            "explanation": "Nangi, ignoring a breach is unsafe. Like office login leaked — change passwords everywhere."
         },
         {
             "questionId": "Q7",
@@ -2558,7 +1358,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, leaked passwords compromise security. Like cryptography keys exposed — update all accounts immediately."
+            "explanation": "Nangi, leaked passwords compromise security. Like cryptography keys exposed — update all accounts immediately."
         },
         {
             "questionId": "Q7",
@@ -2568,7 +1368,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, you should change your password even if you forget it. Imagine your tuition notes got leaked — you wouldn’t wait until you remember them, right? Always reset immediately to stay safe."
+            "explanation": "Malli, you should change your password even if you forget it. Imagine your tuition notes got leaked — you wouldn’t wait until you remember them, right? Always reset immediately to stay safe."
         },
         {
             "questionId": "Q7",
@@ -2578,7 +1378,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, forgetting the password shouldn’t stop you. Like lost exam answers — you update them immediately, not later."
+            "explanation": "Malli, forgetting the password shouldn’t stop you. Like lost exam answers — you update them immediately, not later."
         },
         {
             "questionId": "Q7",
@@ -2588,7 +1388,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, even if you don’t remember, change the password. Like lab project files exposed — better reset all than risk hacking."
+            "explanation": "Malli, even if you don’t remember, change the password. Like lab project files exposed — better reset all than risk hacking."
         },
         {
             "questionId": "Q7",
@@ -2598,7 +1398,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, don’t wait to recall your password. Like thesis drafts leaked — reset immediately to prevent misuse."
+            "explanation": "Malli, don’t wait to recall your password. Like thesis drafts leaked — reset immediately to prevent misuse."
         },
         {
             "questionId": "Q7",
@@ -2608,7 +1408,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, forgetting isn’t an excuse. Like Wi-Fi password leaked — reset promptly, even if you need a hint to recall it."
+            "explanation": "Malli, forgetting isn’t an excuse. Like Wi-Fi password leaked — reset promptly, even if you need a hint to recall it."
         },
         {
             "questionId": "Q7",
@@ -2618,7 +1418,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, reset passwords immediately. Like office credentials compromised — don’t wait to remember them."
+            "explanation": "Malli, reset passwords immediately. Like office credentials compromised — don’t wait to remember them."
         },
         {
             "questionId": "Q7",
@@ -2628,7 +1428,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, even if forgotten, change it. Lab server passwords exposed? Better reset than ignore."
+            "explanation": "Malli, even if forgotten, change it. Lab server passwords exposed? Better reset than ignore."
         },
         {
             "questionId": "Q7",
@@ -2638,7 +1438,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, always reset leaked passwords. Like cryptography keys exposed — memory doesn’t matter, security comes first."
+            "explanation": "Malli, always reset leaked passwords. Like cryptography keys exposed — memory doesn’t matter, security comes first."
         },
         {
             "questionId": "Q7",
@@ -2658,7 +1458,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, reset passwords promptly. Forgetting shouldn’t delay action, just like tuition notes exposure."
+            "explanation": "Nangi, reset passwords promptly. Forgetting shouldn’t delay action, just like tuition notes exposure."
         },
         {
             "questionId": "Q7",
@@ -2678,7 +1478,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, forgetting isn’t an excuse. Thesis drafts leaked? Reset right away to prevent misuse."
+            "explanation": "Nangi, forgetting isn’t an excuse. Thesis drafts leaked? Reset right away to prevent misuse."
         },
         {
             "questionId": "Q7",
@@ -2698,7 +1498,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, reset passwords immediately. Don’t wait to remember them — security first."
+            "explanation": "Nangi, reset passwords immediately. Don’t wait to remember them — security first."
         },
         {
             "questionId": "Q7",
@@ -2708,7 +1508,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Nangi, even if you forget, change it. Lab server passwords exposed? Reset immediately."
+            "explanation": "Nangi, even if friends remember, passwords can be misused. Like lab servers — always confidential."
         },
         {
             "questionId": "Q7",
@@ -2718,7 +1518,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, always reset leaked passwords. Memory isn’t important — security comes first."
+            "explanation": "Nangi, experts know not to trust friends for passwords. Keep them private and secure."
         },
         {
             "questionId": "Q7",
@@ -2728,7 +1528,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, changing only that site is risky. If your password is reused elsewhere, hackers can still access other accounts. Imagine your tuition notes copied — you’d update all copies, not just one."
+            "explanation": "Malli, sharing passwords doesn’t make them longer. Like adding friends’ names to your diary won’t make your notes safer — it just risks exposure. Password length is independent of sharing."
         },
         {
             "questionId": "Q7",
@@ -2738,7 +1538,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, don’t limit to one site. Like exam answers leaked — change all similar copies to avoid trouble."
+            "explanation": "Malli, friends won’t increase password security. Like lending tuition notes — length doesn’t matter, safety does. Keep passwords private."
         },
         {
             "questionId": "Q7",
@@ -2748,7 +1548,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, updating only one site isn’t enough. Lab project passwords exposed? Change them wherever they were used."
+            "explanation": "Malli, sharing doesn’t add length. Like sharing HND project access — doesn’t make it safer. Password security comes from complexity and secrecy."
         },
         {
             "questionId": "Q7",
@@ -2758,7 +1558,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, changing just one site is unsafe. Like thesis drafts leaked — secure all platforms, not just one portal."
+            "explanation": "Malli, sharing doesn’t make passwords longer. Like publishing thesis access to friends — doesn’t help. Security comes from strong, private passwords."
         },
         {
             "questionId": "Q7",
@@ -2768,7 +1568,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, hackers can access accounts where you reused the same password. Like Wi-Fi password copied — update all affected accounts."
+            "explanation": "Malli, hackers can access accounts where you reused the same password. Like Wi-Fi password copied — update all affected accounts."
         },
         {
             "questionId": "Q7",
@@ -2778,7 +1578,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, changing only that site leaves other accounts exposed. Office credentials leaked? Update everywhere you used that password."
+            "explanation": "Malli, changing only that site leaves other accounts exposed. Office credentials leaked? Update everywhere you used that password."
         },
         {
             "questionId": "Q7",
@@ -2788,7 +1588,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, one site change is insufficient. Lab server passwords exposed? Update all related accounts immediately."
+            "explanation": "Malli, one site change is insufficient. Lab server passwords exposed? Update all related accounts immediately."
         },
         {
             "questionId": "Q7",
@@ -2798,7 +1598,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, changing just one site is risky. Cryptography keys exposed? Update all systems where the same password was used."
+            "explanation": "Malli, changing just one site is risky. Cryptography keys exposed? Update all systems where the same password was used."
         },
         {
             "questionId": "Q7",
@@ -2818,7 +1618,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, change all accounts, not just one. Tuition notes leaked? Update everywhere you used that password."
+            "explanation": "Nangi, change all accounts, not just one. Tuition notes leaked? Update everywhere you used that password."
         },
         {
             "questionId": "Q7",
@@ -2838,7 +1638,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, changing just one site is unsafe. Thesis drafts leaked? Secure all platforms where the password was reused."
+            "explanation": "Nangi, changing just one site is unsafe. Thesis drafts leaked? Secure all platforms where the password was reused."
         },
         {
             "questionId": "Q7",
@@ -2858,7 +1658,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, hackers can access reused passwords. Change all accounts wherever the same password was used."
+            "explanation": "Nangi, hackers can access reused passwords. Change all accounts wherever the same password was used."
         },
         {
             "questionId": "Q7",
@@ -2878,7 +1678,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, changing only one site is risky. Cryptography keys exposed? Update all systems where the same password was used."
+            "explanation": "Nangi, changing only one site is risky. Cryptography keys exposed? Update all systems where the same password was used."
         },
         {
             "questionId": "Q8",
@@ -2888,7 +1688,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, changing passwords only every few years is too slow. Imagine your school library locker — if you never change its lock for years, someone could copy the key. Important accounts need regular updates."
+            "explanation": "Malli, changing passwords only every few years is too slow. Imagine your school library locker — if you never change its lock for years, someone could copy the key. Important accounts need regular updates."
         },
         {
             "questionId": "Q8",
@@ -2898,7 +1698,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, every few years isn’t enough. Like tuition notes — hackers can copy them quickly. Change important passwords more often."
+            "explanation": "Malli, every few years isn’t enough. Like tuition notes — hackers can copy them quickly. Change important passwords more often."
         },
         {
             "questionId": "Q8",
@@ -2908,7 +1708,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, waiting years is unsafe. Lab server passwords should be updated frequently, not every few years."
+            "explanation": "Malli, waiting years is unsafe. Lab server passwords should be updated frequently, not every few years."
         },
         {
             "questionId": "Q8",
@@ -2918,7 +1718,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, important passwords must be changed regularly. Like thesis drafts — frequent updates prevent misuse."
+            "explanation": "Malli, important passwords must be changed regularly. Like thesis drafts — frequent updates prevent misuse."
         },
         {
             "questionId": "Q8",
@@ -2928,7 +1728,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, changing passwords only every few years is risky. Like Wi-Fi credentials — hackers can act faster than that."
+            "explanation": "Malli, changing passwords only every few years is risky. Like Wi-Fi credentials — hackers can act faster than that."
         },
         {
             "questionId": "Q8",
@@ -2938,7 +1738,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, even strong passwords need regular updates. Office accounts shouldn’t rely on multi-year changes."
+            "explanation": "Malli, even strong passwords need regular updates. Office accounts shouldn’t rely on multi-year changes."
         },
         {
             "questionId": "Q8",
@@ -2948,7 +1748,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, a few years is too long. Lab systems need more frequent password changes to stay secure."
+            "explanation": "Malli, a few years is too long. Lab systems need more frequent password changes to stay secure."
         },
         {
             "questionId": "Q8",
@@ -2958,7 +1758,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, passwords for sensitive accounts should be updated regularly, not left unchanged for years."
+            "explanation": "Malli, passwords for sensitive accounts should be updated regularly, not left unchanged for years."
         },
         {
             "questionId": "Q8",
@@ -2978,7 +1778,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, waiting years is risky. Important accounts need timely updates."
+            "explanation": "Nangi, waiting years is risky. Important accounts need timely updates."
         },
         {
             "questionId": "Q8",
@@ -2998,7 +1798,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, important passwords need frequent updates. Like thesis drafts — frequent changes prevent misuse."
+            "explanation": "Nangi, important passwords need frequent updates. Like thesis drafts — frequent changes prevent misuse."
         },
         {
             "questionId": "Q8",
@@ -3018,7 +1818,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, even strong passwords need timely updates. Office or online accounts shouldn’t wait years."
+            "explanation": "Nangi, even strong passwords need timely updates. Office or online accounts shouldn’t wait years."
         },
         {
             "questionId": "Q8",
@@ -3038,7 +1838,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, regular updates are important. Sensitive passwords shouldn’t be left unchanged for years."
+            "explanation": "Nangi, regular updates are important. Sensitive passwords shouldn’t be left unchanged for years."
         },
         {
             "questionId": "Q8",
@@ -3048,7 +1848,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, even a strong password can be leaked or hacked. Think of your tuition notes — even if carefully written, someone can still copy them. So, never rely on strength alone; change regularly."
+            "explanation": "Malli, even a strong password can be leaked or hacked. Think of your tuition notes — even if carefully written, someone can still copy them. So, never rely on strength alone; change regularly."
         },
         {
             "questionId": "Q8",
@@ -3058,7 +1858,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, a strong password doesn’t guarantee security forever. Like exam answers — someone can still get a copy. Change it regularly to stay safe."
+            "explanation": "Malli, a strong password doesn’t guarantee security forever. Like exam answers — someone can still get a copy. Change it regularly to stay safe."
         },
         {
             "questionId": "Q8",
@@ -3068,7 +1868,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, strong passwords can still be exposed. Lab server passwords need regular updates regardless of complexity."
+            "explanation": "Malli, strong passwords can still be exposed. Lab server passwords need regular updates regardless of complexity."
         },
         {
             "questionId": "Q8",
@@ -3078,7 +1878,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, even complex passwords can be compromised. Thesis account passwords must be updated regularly."
+            "explanation": "Malli, even complex passwords can be compromised. Thesis account passwords must be updated regularly."
         },
         {
             "questionId": "Q8",
@@ -3088,7 +1888,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, never assuming a strong password is enough is risky. Like Wi-Fi — hackers can still access if left unchanged for long."
+            "explanation": "Malli, never assuming a strong password is enough is risky. Like Wi-Fi — hackers can still access if left unchanged for long."
         },
         {
             "questionId": "Q8",
@@ -3098,7 +1898,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, strong doesn’t mean permanent. Office or banking accounts need regular password updates."
+            "explanation": "Malli, strong doesn’t mean permanent. Office or banking accounts need regular password updates."
         },
         {
             "questionId": "Q8",
@@ -3108,7 +1908,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, even complex passwords aren’t immune. Lab servers need periodic changes for security."
+            "explanation": "Malli, even complex passwords aren’t immune. Lab servers need periodic changes for security."
         },
         {
             "questionId": "Q8",
@@ -3118,87 +1918,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, never relying solely on strong passwords is smart. Update sensitive passwords frequently."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even a strong password can be hacked. Like diary notes — regular updates keep it safe."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, strong passwords alone aren’t enough. Tuition or social media accounts need regular changes."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, complexity doesn’t replace updates. Lab or project accounts need periodic password changes."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, even strong passwords can be exposed. Change sensitive passwords regularly."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, never assume a strong password lasts forever. Like Wi-Fi or banking accounts — update regularly."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, strong passwords aren’t permanent. Regular changes keep your accounts safe."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, even complex passwords need updates. Lab or sensitive accounts should be changed frequently."
-        },
-        {
-            "questionId": "Q8",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, don’t rely only on strong passwords. Update sensitive accounts regularly to stay secure."
+            "explanation": "Malli, never relying solely on strong passwords is smart. Update sensitive passwords frequently."
         },
         {
             "questionId": "Q8",
@@ -3208,7 +1928,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, changing passwords only when you update your device isn’t enough. Imagine your tuition notes copied even if you didn’t change your device — hackers can access anytime. Passwords need regular updates independent of devices."
+            "explanation": "Malli, changing passwords only when you update your device isn’t enough. Imagine your tuition notes copied even if you didn’t change your device — hackers can access anytime. Passwords need regular updates independent of devices."
         },
         {
             "questionId": "Q8",
@@ -3218,7 +1938,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, device updates don’t guarantee security. Like exam notes — you must change passwords regularly, not just when your phone or computer is new."
+            "explanation": "Malli, device updates don’t guarantee security. Like exam notes — you must change passwords regularly, not just when your phone or computer is new."
         },
         {
             "questionId": "Q8",
@@ -3228,7 +1948,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, updating passwords only when devices change is risky. Lab servers could be accessed anytime — passwords should be updated periodically."
+            "explanation": "Malli, updating passwords only when devices change is risky. Lab servers could be accessed anytime — passwords should be updated periodically."
         },
         {
             "questionId": "Q8",
@@ -3238,7 +1958,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, relying on device updates isn’t enough. Like thesis drafts — change passwords regularly to prevent misuse."
+            "explanation": "Malli, relying on device updates isn’t enough. Like thesis drafts — change passwords regularly to prevent misuse."
         },
         {
             "questionId": "Q8",
@@ -3248,7 +1968,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, device updates don’t protect passwords. Like Wi-Fi credentials — update passwords regularly, independent of devices."
+            "explanation": "Malli, device updates don’t protect passwords. Like Wi-Fi credentials — update passwords regularly, independent of devices."
         },
         {
             "questionId": "Q8",
@@ -3258,7 +1978,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, changing passwords only with new devices leaves accounts vulnerable. Office accounts need regular updates."
+            "explanation": "Malli, changing passwords only with new devices leaves accounts vulnerable. Office accounts need regular updates."
         },
         {
             "questionId": "Q8",
@@ -3268,7 +1988,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, periodic password updates are essential. Lab server passwords shouldn’t rely on device changes."
+            "explanation": "Malli, periodic password updates are essential. Lab server passwords shouldn’t rely on device changes."
         },
         {
             "questionId": "Q8",
@@ -3278,7 +1998,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, don’t wait for a new device to update passwords. Sensitive accounts must be updated regularly."
+            "explanation": "Malli, don’t wait for a new device to update passwords. Sensitive accounts must be updated regularly."
         },
         {
             "questionId": "Q8",
@@ -3298,7 +2018,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, device updates don’t protect accounts. Tuition or social media passwords must be updated regularly."
+            "explanation": "Nangi, device updates don’t protect accounts. Tuition or social media passwords must be updated regularly."
         },
         {
             "questionId": "Q8",
@@ -3318,7 +2038,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, don’t rely on device updates. Important passwords should be updated regularly regardless of device."
+            "explanation": "Nangi, don’t rely on device updates. Important passwords should be updated regularly regardless of device."
         },
         {
             "questionId": "Q8",
@@ -3338,7 +2058,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, changing passwords only when devices change is unsafe. Regular updates are essential."
+            "explanation": "Nangi, changing passwords only when devices change is unsafe. Regular updates are essential."
         },
         {
             "questionId": "Q8",
@@ -3358,7 +2078,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, device updates aren’t enough. Update sensitive passwords regularly to stay secure."
+            "explanation": "Nangi, device updates aren’t enough. Update sensitive passwords regularly to stay secure."
         },
         {
             "questionId": "Q9",
@@ -3368,7 +2088,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, sending passwords via WhatsApp isn’t safe. Imagine giving your tuition notes to someone — they could forward them without your knowledge. Always use secure password-sharing tools."
+            "explanation": "Malli, sending passwords via WhatsApp isn’t safe. Imagine giving your tuition notes to someone — they could forward them without your knowledge. Always use secure password-sharing tools."
         },
         {
             "questionId": "Q9",
@@ -3378,7 +2098,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, WhatsApp can be intercepted. Like exam answers — sharing openly is risky. Use proper tools for password sharing."
+            "explanation": "Malli, WhatsApp can be intercepted. Like exam answers — sharing openly is risky. Use proper tools for password sharing."
         },
         {
             "questionId": "Q9",
@@ -3388,7 +2108,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, WhatsApp is not secure enough. Lab project passwords should only be shared through secure channels."
+            "explanation": "Malli, WhatsApp is not secure enough. Lab project passwords should only be shared through secure channels."
         },
         {
             "questionId": "Q9",
@@ -3398,7 +2118,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, sharing passwords over WhatsApp is unsafe. Sensitive accounts like thesis access need secure methods."
+            "explanation": "Malli, sending passwords defeats the whole purpose. Think of your research lab — sharing your secure key with others would ruin your work. Use apps that lock and encrypt passwords only for your access."
         },
         {
             "questionId": "Q9",
@@ -3408,7 +2128,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, WhatsApp messages can be compromised. Like Wi-Fi passwords — only share using secure apps."
+            "explanation": "Malli, WhatsApp messages can be compromised. Like Wi-Fi passwords — only share using secure apps."
         },
         {
             "questionId": "Q9",
@@ -3418,7 +2138,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, sending passwords via WhatsApp is risky. Office credentials need secure sharing."
+            "explanation": "Malli, sending passwords via WhatsApp is risky. Office credentials need secure sharing."
         },
         {
             "questionId": "Q9",
@@ -3428,7 +2148,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, WhatsApp isn’t safe for sensitive passwords. Lab or server credentials need secure channels."
+            "explanation": "Malli, WhatsApp isn’t safe for sensitive passwords. Lab or server credentials need secure channels."
         },
         {
             "questionId": "Q9",
@@ -3438,7 +2158,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, WhatsApp is not secure enough. Use proper password-sharing tools for sensitive accounts."
+            "explanation": "Malli, WhatsApp is not secure enough. Use proper password-sharing tools for sensitive accounts."
         },
         {
             "questionId": "Q9",
@@ -3458,7 +2178,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, WhatsApp isn’t secure for passwords. Tuition or social media accounts need safe sharing methods."
+            "explanation": "Nangi, WhatsApp isn’t secure for passwords. Tuition or social media accounts need safe sharing methods."
         },
         {
             "questionId": "Q9",
@@ -3478,7 +2198,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, WhatsApp isn’t safe. Thesis or important accounts should use secure password-sharing methods."
+            "explanation": "Nangi, WhatsApp isn’t safe. Thesis or important accounts should use secure password-sharing methods."
         },
         {
             "questionId": "Q9",
@@ -3498,7 +2218,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, sending passwords via WhatsApp is risky. Use proper password-sharing channels."
+            "explanation": "Nangi, sending passwords via WhatsApp is risky. Use proper password-sharing channels."
         },
         {
             "questionId": "Q9",
@@ -3508,7 +2228,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Nangi, WhatsApp is not secure. Lab or sensitive accounts require secure sharing tools."
+            "explanation": "Nangi, WhatsApp is not secure. Lab or sensitive accounts require secure tools."
         },
         {
             "questionId": "Q9",
@@ -3518,327 +2238,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, WhatsApp is unsafe for passwords. Use proper tools for secure sharing."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, saying passwords over the phone is not very safe. Imagine telling your tuition answers aloud in a noisy room — someone nearby could hear. It’s better to use secure password-sharing tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, speaking passwords aloud can be risky. Like reading exam answers out loud — someone might overhear. Use proper tools to share passwords."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, saying passwords on the phone isn’t fully secure. Lab server passwords should only be shared via secure channels."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, phone conversations can be intercepted or overheard. Thesis account passwords need secure methods, not verbal sharing."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, even phones can be tapped or overheard. Like Wi-Fi passwords — better use secure apps."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, verbal sharing leaves room for mistakes or interception. Office credentials should be shared using secure channels."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, phones aren’t fully secure. Lab or server passwords should only go through secure tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, sensitive passwords shouldn’t be spoken aloud. Use proper secure apps for sharing."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, saying passwords over the phone isn’t fully safe. Like reading diary pages aloud — someone could hear."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, phone conversations can be risky. Tuition or social media passwords should use secure sharing tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, phones aren’t fully secure for sensitive passwords. Lab or project accounts need proper channels."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, speaking passwords aloud is unsafe. Thesis or important accounts need secure tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, phone conversations can be intercepted. Always use secure password-sharing apps."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, verbal sharing is risky. Proper secure channels are the right way to share passwords."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, phones aren’t safe enough. Lab or sensitive accounts should use secure sharing methods."
-        },
-        {
-            "questionId": "Q9",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, never share passwords verbally. Use secure apps for safe sharing of sensitive accounts."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, posting passwords even in a private Facebook group is very unsafe. Imagine putting your tuition answers on a noticeboard labeled 'private' — anyone can screenshot or copy it."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, even 'private' groups aren’t fully secure. Like reading exam answers aloud in a closed group — someone can still capture it."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, posting passwords publicly or semi-publicly is risky. Lab project passwords must be shared securely."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, never post sensitive passwords online, even in 'private' groups. Thesis access accounts need secure sharing tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, Facebook isn’t a secure place for passwords. Like Wi-Fi passwords — only share using secure apps."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, posting passwords even in a private group is risky. Office accounts need secure channels."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, online sharing is unsafe. Lab or server accounts require proper secure tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, never trust social media for password sharing. Use secure tools for sensitive accounts."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even private groups on Facebook aren’t safe. Like putting diary notes online — someone can copy them."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, posting passwords online is unsafe. Tuition or social media accounts need secure sharing."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, online sharing is risky. Lab or project accounts require secure channels."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, never post passwords online. Thesis or important accounts need secure sharing methods."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, Facebook isn’t secure enough. Always use password-sharing tools for safety."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, posting passwords online is very unsafe. Use secure channels for sharing."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, never share passwords on social media. Lab or sensitive accounts need secure tools."
-        },
-        {
-            "questionId": "Q9",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, private groups on Facebook are not safe for passwords. Always use secure apps for sensitive accounts."
+            "explanation": "Nangi, private groups on Facebook are not safe for passwords. Always use secure apps for sensitive accounts."
         },
         {
             "questionId": "Q10",
@@ -3848,7 +2248,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, reusing passwords is dangerous. Imagine using the same key for your home, school, and tuition — if one key is lost, all your doors are at risk. Always use unique passwords."
+            "explanation": "Malli, reusing passwords is dangerous. Imagine using the same key for your home, school, and tuition — if one key is lost, all your doors are at risk. Always use unique passwords."
         },
         {
             "questionId": "Q10",
@@ -3858,7 +2258,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, reusing passwords is risky. Like having the same locker combination for all your lockers — if one is broken, all are exposed."
+            "explanation": "Malli, reusing passwords is risky. Like having the same locker combination for all your lockers — if one is broken, all are exposed."
         },
         {
             "questionId": "Q10",
@@ -3868,7 +2268,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, never reuse passwords. Lab accounts should have unique passwords to prevent one breach affecting all."
+            "explanation": "Malli, never reuse passwords. Lab accounts should have unique passwords to prevent one breach affecting all."
         },
         {
             "questionId": "Q10",
@@ -3878,7 +2278,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, reusing passwords is unsafe. Sensitive accounts like thesis or email need unique, strong passwords."
+            "explanation": "Malli, reusing passwords is unsafe. Sensitive accounts like thesis or email need unique, strong passwords."
         },
         {
             "questionId": "Q10",
@@ -3888,7 +2288,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, even trusted websites can be hacked. Don’t reuse passwords — it’s like using the same key for multiple safes."
+            "explanation": "Malli, even trusted websites can be hacked. Don’t reuse passwords — it’s like using the same key for multiple safes."
         },
         {
             "questionId": "Q10",
@@ -3898,7 +2298,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, reusing passwords is risky. Each office or banking account should have a unique password."
+            "explanation": "Malli, reusing passwords is risky. Each office or banking account should have a unique password."
         },
         {
             "questionId": "Q10",
@@ -3908,7 +2308,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, never reuse passwords. Lab server credentials must be unique for security."
+            "explanation": "Malli, never reuse passwords. Lab server credentials must be unique for security."
         },
         {
             "questionId": "Q10",
@@ -3918,87 +2318,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, reusing passwords is unsafe. Always create unique passwords for sensitive accounts."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, reusing passwords is unsafe. Like using the same key for home and tuition lockers — risky if one is stolen."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, never reuse passwords. Each social media or school account needs its own password."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, reusing passwords is risky. Lab and project accounts require unique passwords."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, never reuse passwords. Important accounts like thesis or email must have unique passwords."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, even trusted sites can be hacked. Use unique passwords for safety."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, never reuse passwords. Each account needs its own secure password."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, reusing passwords is unsafe. Lab or sensitive accounts require unique passwords."
-        },
-        {
-            "questionId": "Q10",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, reusing passwords is unsafe. Always use unique passwords for important accounts."
+            "explanation": "Malli, reusing passwords is unsafe. Always create unique passwords for sensitive accounts."
         },
         {
             "questionId": "Q10",
@@ -4008,7 +2328,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, writing passwords on sticky notes is risky. Imagine putting your tuition answers on your desk — anyone passing by can see and misuse them. Better to use a secure password manager."
+            "explanation": "Malli, writing passwords on sticky notes is risky. Imagine putting your tuition answers on your desk — anyone passing by can see and misuse them. Better to use a secure password manager."
         },
         {
             "questionId": "Q10",
@@ -4018,7 +2338,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, sticky notes are easy for others to peek at. Like leaving exam answers on your table — someone can copy them. Use safe storage instead."
+            "explanation": "Malli, sticky notes are easy for others to peek at. Like leaving exam answers on your table — someone can copy them. Use safe storage instead."
         },
         {
             "questionId": "Q10",
@@ -4028,7 +2348,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, writing passwords physically is insecure. Lab passwords should go in a secure password manager, not on paper."
+            "explanation": "Malli, writing passwords physically is insecure. Lab passwords should go in a secure password manager, not on paper."
         },
         {
             "questionId": "Q10",
@@ -4038,7 +2358,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, sticky notes can be stolen or seen. Important accounts like thesis access need secure digital storage."
+            "explanation": "Malli, sticky notes can be stolen or seen. Important accounts like thesis access need secure digital storage."
         },
         {
             "questionId": "Q10",
@@ -4048,7 +2368,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, even a simple glance can reveal sticky note passwords. Like Wi-Fi passwords — keep them in a secure app."
+            "explanation": "Malli, even a simple glance can reveal sticky note passwords. Like Wi-Fi passwords — keep them in a secure app."
         },
         {
             "questionId": "Q10",
@@ -4058,7 +2378,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, leaving passwords visible is risky. Office accounts should be stored in secure tools."
+            "explanation": "Malli, leaving passwords visible is risky. Office accounts should be stored in secure tools."
         },
         {
             "questionId": "Q10",
@@ -4068,7 +2388,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, never keep lab passwords on sticky notes. Use password managers or encrypted storage."
+            "explanation": "Malli, never keep lab passwords on sticky notes. Use password managers or encrypted storage."
         },
         {
             "questionId": "Q10",
@@ -4078,7 +2398,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, sticky notes are not secure for important accounts. Digital password managers are safer."
+            "explanation": "Malli, sticky notes are not secure for important accounts. Digital password managers are safer."
         },
         {
             "questionId": "Q10",
@@ -4098,7 +2418,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, sticky notes are unsafe. Tuition or social media passwords should go in secure apps."
+            "explanation": "Nangi, sticky notes are unsafe. Tuition or social media passwords should go in secure apps."
         },
         {
             "questionId": "Q10",
@@ -4118,7 +2438,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, sticky notes aren’t safe. Important accounts like thesis access need secure password managers."
+            "explanation": "Nangi, sticky notes aren’t safe. Important accounts like thesis access need secure password managers."
         },
         {
             "questionId": "Q10",
@@ -4138,7 +2458,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, writing passwords on notes is risky. Store all important passwords securely."
+            "explanation": "Nangi, writing passwords on notes is risky. Store all important passwords securely."
         },
         {
             "questionId": "Q10",
@@ -4158,7 +2478,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, sticky notes are unsafe. Always use secure tools for storing important passwords."
+            "explanation": "Nangi, sticky notes are unsafe. Always use secure tools for storing important passwords."
         },
         {
             "questionId": "Q10",
@@ -4168,7 +2488,7 @@
                 "proficiency": "School",
                 "education": "O/L"
             },
-            "explanation": "Machan, changing only one character of an old password is not very safe. Imagine you slightly change your tuition answer — someone who knows the old one can guess the new one. Better to create a completely new strong password."
+            "explanation": "Malli, changing only one character of an old password is not very safe. Imagine you slightly change your tuition answer — someone who knows the old one can guess the new one. Better to create a completely new strong password."
         },
         {
             "questionId": "Q10",
@@ -4178,7 +2498,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Putha, small changes in old passwords are risky. Like tweaking your locker combination slightly — someone who knows the old code can figure it out."
+            "explanation": "Malli, small changes in old passwords are risky. Like tweaking your locker combination slightly — someone who knows the old code can figure it out."
         },
         {
             "questionId": "Q10",
@@ -4188,7 +2508,7 @@
                 "proficiency": "School",
                 "education": "HND"
             },
-            "explanation": "Machang, slight modifications aren’t enough. Lab or server passwords should be entirely new and strong."
+            "explanation": "Malli, slight modifications aren’t enough. Lab or server passwords should be entirely new and strong."
         },
         {
             "questionId": "Q10",
@@ -4198,7 +2518,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Putha, changing one character leaves passwords predictable. Important accounts like thesis access need completely new strong passwords."
+            "explanation": "Malli, changing one character leaves passwords predictable. Important accounts like thesis access need completely new strong passwords."
         },
         {
             "questionId": "Q10",
@@ -4208,7 +2528,7 @@
                 "proficiency": "High",
                 "education": "O/L"
             },
-            "explanation": "Machan, slight changes are weak. Like changing one pin digit — hackers can still guess it. Use fully new passwords."
+            "explanation": "Malli, slight changes are weak. Like changing one pin digit — hackers can still guess it. Use fully new passwords."
         },
         {
             "questionId": "Q10",
@@ -4218,7 +2538,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Putha, modifying only one character is unsafe. Each account should have a completely new strong password."
+            "explanation": "Malli, modifying only one character is unsafe. Each account should have a completely new strong password."
         },
         {
             "questionId": "Q10",
@@ -4228,7 +2548,7 @@
                 "proficiency": "High",
                 "education": "HND"
             },
-            "explanation": "Machang, old passwords with minor tweaks are weak. Lab server credentials need entirely new passwords."
+            "explanation": "Malli, old passwords with minor tweaks are weak. Lab server credentials need entirely new passwords."
         },
         {
             "questionId": "Q10",
@@ -4238,7 +2558,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Putha, slightly changed passwords are predictable. Important accounts require completely new strong passwords."
+            "explanation": "Malli, slightly changed passwords are predictable. Important accounts require completely new strong passwords."
         },
         {
             "questionId": "Q10",
@@ -4258,7 +2578,7 @@
                 "proficiency": "School",
                 "education": "A/L"
             },
-            "explanation": "Duwa, slight tweaks in old passwords are weak. Each account should get a completely new password."
+            "explanation": "Nangi, slight tweaks in old passwords are weak. Each account should get a completely new password."
         },
         {
             "questionId": "Q10",
@@ -4278,7 +2598,7 @@
                 "proficiency": "School",
                 "education": "Degree"
             },
-            "explanation": "Duwa, slightly modified passwords are easy to guess. Important accounts need entirely new strong passwords."
+            "explanation": "Nangi, slightly modified passwords are easy to guess. Important accounts need entirely new strong passwords."
         },
         {
             "questionId": "Q10",
@@ -4298,7 +2618,7 @@
                 "proficiency": "High",
                 "education": "A/L"
             },
-            "explanation": "Duwa, minor changes are risky. Each account should have a brand-new strong password."
+            "explanation": "Nangi, minor changes are risky. Each account should have a brand-new strong password."
         },
         {
             "questionId": "Q10",
@@ -4318,487 +2638,7 @@
                 "proficiency": "High",
                 "education": "Degree"
             },
-            "explanation": "Duwa, altering one character isn’t secure. Use entirely new passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, John1234 is weak because it’s predictable and short. Like using a simple locker code — anyone can guess it. Better to use random letters, numbers, and symbols."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, this password is simple and easy to hack. Use something random and long, like your own unique code for each account."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, John1234 is predictable. Lab or project accounts need random strong passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, this password is easy to guess. Use complex, long passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, John1234 is very weak. Hackers can easily guess it. Use random letters, numbers, and symbols."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, simple passwords are unsafe. Each account should have a long, complex password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, John1234 is predictable. Use unique, complex passwords for lab accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, easy passwords are risky. Use strong, random passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, John1234 is too simple. Like using a short diary code — easy to guess. Use random letters, numbers, and symbols."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, simple passwords are unsafe. Use something long and random for each account."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, John1234 is easy to guess. Lab or project accounts need strong passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, simple passwords are risky. Use complex passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, John1234 is weak. Always use long and random passwords for safety."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, simple passwords are unsafe. Each account needs a strong, unique password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, John1234 is predictable. Use strong passwords for lab or sensitive accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "A",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, simple passwords are risky. Always use complex, unique passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, John@123! is better than John1234 because it has symbols, but it’s still guessable. Like using a locker code with a simple symbol — hackers can still figure it out. Try making it longer and fully random."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, adding symbols helps but the password is predictable. Each account should have a random, unique password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, John@123! is slightly better but still not strong. Lab accounts need fully random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, it’s better than a simple password but still guessable. Important accounts need completely random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, adding symbols is good but it’s still weak for hackers. Always prefer long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, John@123! is okay but predictable. Each sensitive account needs a unique strong password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, symbols help but password is guessable. Lab or server passwords require fully random combinations."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, it’s an improvement but still predictable. Use long, random passwords for important accounts."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, John@123! is better than simple passwords but still guessable. Use longer, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, symbols make it slightly stronger but still predictable. Use unique strong passwords for each account."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, John@123! is not fully secure. Lab and project accounts need random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, slightly stronger but still predictable. Important accounts need fully random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, John@123! is okay but predictable. Use long and random passwords for safety."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, adding symbols is better but not enough. Each account needs a strong unique password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, John@123! is slightly stronger but still guessable. Lab accounts need fully random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "B",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, it’s an improvement but still predictable. Important accounts need long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Machan, 123456 is very weak. Like leaving your house key under the mat — anyone can get in. Always use long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Putha, 123456 is extremely guessable. Like using a locker with a common code — hackers can break it easily."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Machang, 123456 is too simple. Lab or project accounts need strong, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Putha, this password is very weak. Important accounts must use long, unique passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Machan, 123456 is extremely unsafe. Hackers can guess it in seconds. Use random letters, numbers, and symbols."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Putha, simple passwords like 123456 are unsafe. Each account needs a strong, unique password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Machang, 123456 is predictable. Lab or server passwords require long, random combinations."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Male",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Putha, 123456 is unsafe. Important accounts need strong, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, 123456 is very weak. Like leaving your diary open — anyone can read it. Use long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, 123456 is extremely easy to guess. Each account needs a strong, unique password."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "HND"
-            },
-            "explanation": "Nangi, 123456 is too simple. Lab or project accounts need strong passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "School",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, 123456 is extremely weak. Important accounts need long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "O/L"
-            },
-            "explanation": "Nangi, 123456 is unsafe. Hackers can guess it immediately. Use random letters, numbers, and symbols."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "A/L"
-            },
-            "explanation": "Duwa, simple passwords like 123456 are very unsafe. Use strong, unique passwords for each account."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "HND"
-            },
-            "explanation": "Nangi, 123456 is predictable. Lab or sensitive accounts need long, random passwords."
-        },
-        {
-            "questionId": "Q1",
-            "option": "D",
-            "profile": {
-                "gender": "Female",
-                "proficiency": "High",
-                "education": "Degree"
-            },
-            "explanation": "Duwa, 123456 is very weak. Important accounts need strong, random passwords."
+            "explanation": "Nangi, altering one character isn’t secure. Use entirely new passwords for important accounts."
         }
     ]
 ]
